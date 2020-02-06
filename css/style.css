@@ -1367,7 +1367,7 @@ template {
     .section-stack-start-text {
       margin: auto auto 0 0; }
       .section-stack-start-text p {
-        font-size: 23px;
+        font-size: 21px;
         text-align: center; }
       .section-stack-start-text hr {
         text-align: center;
@@ -1386,17 +1386,17 @@ template {
     .section-stack-technologies__subtitle {
       margin: auto 0 auto 0; }
       .section-stack-technologies__subtitle p {
-        font-size: 23px;
+        font-size: 21px;
         text-align: center; }
       .section-stack-technologies__subtitle__second {
         margin: auto 0 auto 0; }
         .section-stack-technologies__subtitle__second p {
-          font-size: 23px;
+          font-size: 21px;
           text-align: center; }
       .section-stack-technologies__subtitle__three {
         margin: auto 0 auto 0; }
         .section-stack-technologies__subtitle__three p {
-          font-size: 23px;
+          font-size: 21px;
           text-align: center; }
     .section-stack-technologies__ico {
       margin: 0 auto; }
@@ -1549,7 +1549,7 @@ template {
     .section-stack-start-text {
       margin: auto auto 0 0; }
       .section-stack-start-text p {
-        font-size: 24px;
+        font-size: 21px;
         text-align: center; }
       .section-stack-start-text hr {
         text-align: center;
@@ -1569,29 +1569,31 @@ template {
     margin-top: 0px;
     width: 80px; }
   .section-project__promo h2 {
-    font-size: 18px; }
+    font-size: 25px; }
   .section-project__allproject__choice {
     width: 270px;
     margin: 0 auto; }
     .section-project__allproject__choice a img {
       max-width: 270px; }
-  .section-standart__tytle h2 {
-    font-size: 18px; }
-  .section-standart__tytle hr {
-    width: 280px; }
-  .section-standart-technologies__subtitle {
-    width: 100%; }
-    .section-standart-technologies__subtitle p {
-      font-size: 16px; }
-    .section-standart-technologies__subtitle__second {
-      margin-left: 0; }
-      .section-standart-technologies__subtitle__second p {
+  .section-standart {
+    margin: auto 5px auto 5px; }
+    .section-standart__tytle h2 {
+      font-size: 25px; }
+    .section-standart__tytle hr {
+      width: 280px; }
+    .section-standart-technologies__subtitle {
+      width: 100%; }
+      .section-standart-technologies__subtitle p {
         font-size: 16px; }
-  .section-standart-technologies__ico img {
-    width: 160px; }
+      .section-standart-technologies__subtitle__second {
+        margin-left: 0; }
+        .section-standart-technologies__subtitle__second p {
+          font-size: 16px; }
+    .section-standart-technologies__ico img {
+      width: 160px; }
   .section-about__h2 h2 {
     text-align: center;
-    font-size: 18px; }
+    font-size: 25px; }
   .section-about__h2 hr {
     width: 78px;
     margin-bottom: 20px; }
