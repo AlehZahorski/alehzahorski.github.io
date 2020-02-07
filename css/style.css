@@ -1550,41 +1550,43 @@ template {
         height: 35px; }
   .section-about__about-me-three__subtitle p {
     font-size: 20px; }
-  .section-contact__h2 h2 {
-    margin-top: 72px;
-    font-size: 30px; }
-  .section-contact__h2 hr {
-    width: 110px;
-    margin-top: 5px; }
-  .section-contact__inputs {
-    width: 90%;
+  .section-contact {
     margin: 0 auto; }
-    .section-contact__inputs :nth-child(1) {
-      font-size: 18px;
-      text-align: center; }
-    .section-contact__inputs :nth-child(2) {
-      font-size: 18px;
-      text-align: center; }
-    .section-contact__inputs :nth-child(3) {
-      font-size: 18px;
-      text-align: center; }
-    .section-contact__inputs :nth-child(4) {
-      font-size: 18px;
-      text-align: center; }
-  .section-contact__mail {
-    margin: 40px auto 0 auto; }
-    .section-contact__mail__social-ico a img {
-      height: 40px; }
-    .section-contact__mail__gmail p {
-      font-size: 21px; }
-  .section-contact__contacts {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto; }
-    .section-contact__contacts p {
-      text-align: center;
-      font-size: 21px; } }
+    .section-contact__h2 h2 {
+      margin-top: 72px;
+      font-size: 30px; }
+    .section-contact__h2 hr {
+      width: 110px;
+      margin-top: 5px; }
+    .section-contact__inputs {
+      width: 90%;
+      margin: 0 auto; }
+      .section-contact__inputs :nth-child(1) {
+        font-size: 18px;
+        text-align: center; }
+      .section-contact__inputs :nth-child(2) {
+        font-size: 18px;
+        text-align: center; }
+      .section-contact__inputs :nth-child(3) {
+        font-size: 18px;
+        text-align: center; }
+      .section-contact__inputs :nth-child(4) {
+        font-size: 18px;
+        text-align: center; }
+    .section-contact__mail {
+      margin: 40px auto 0 auto; }
+      .section-contact__mail__social-ico a img {
+        height: 40px; }
+      .section-contact__mail__gmail p {
+        font-size: 21px; }
+    .section-contact__contacts {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto; }
+      .section-contact__contacts p {
+        text-align: center;
+        font-size: 21px; } }
 
 @media (max-width: 370px) {
   .section-header-menu-logo span {
