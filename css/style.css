@@ -663,12 +663,12 @@ template {
     text-align: center;
     margin-bottom: 0; }
   .section-contact__h2 hr {
-    width: 150px;
-    height: 1px; }
+    width: 150px; }
   .section-contact__inputs {
     display: flex;
     flex-direction: column;
-    width: 90%; }
+    width: 99%;
+    margin: 0 auto; }
     .section-contact__inputs :nth-child(1) {
       font-size: 32px;
       width: 60%;
@@ -693,12 +693,14 @@ template {
       margin: auto 0 auto auto; }
   .section-contact__contacts {
     margin-top: 70px;
+    width: 90%;
+    margin: 0 auto;
     display: flex; }
     .section-contact__contacts p {
       text-align: center;
       font-size: 32px; }
     .section-contact__contacts__phone {
-      margin: auto 60px auto auto; }
+      margin: auto 0 auto auto; }
   .section-contact__mail {
     margin-top: 20px; }
     .section-contact__mail__social-ico a img {
@@ -788,7 +790,7 @@ template {
   .section-contact__h2 hr {
     width: 150px; }
   .section-contact__inputs {
-    margin-left: 20px;
+    margin: auto 5% auto 5%;
     display: flex;
     flex-direction: column;
     width: 100%; }
@@ -1314,19 +1316,19 @@ template {
     width: 85%; }
     .section-contact__inputs :nth-child(1) {
       font-size: 21px;
-      min-width: 100%;
+      min-width: 98.6%;
       text-align: center; }
     .section-contact__inputs :nth-child(2) {
       font-size: 21px;
-      min-width: 100%;
+      min-width: 98.6%;
       text-align: center; }
     .section-contact__inputs :nth-child(3) {
       font-size: 21px;
-      min-width: 100%;
+      min-width: 98%;
       text-align: center; }
     .section-contact__inputs :nth-child(4) {
       font-size: 21px;
-      min-width: 100%;
+      min-width: 99%;
       margin: 0 .5%;
       text-align: center; }
   .section-contact__mail {
@@ -1500,26 +1502,24 @@ template {
     margin-top: 5px; }
   .section-contact__inputs :nth-child(1) {
     font-size: 18px;
-    max-width: 87%;
+    max-width: 98.6%;
     text-align: center; }
   .section-contact__inputs :nth-child(2) {
     font-size: 18px;
-    max-width: 87%;
+    max-width: 98.6%;
     text-align: center; }
   .section-contact__inputs :nth-child(3) {
     font-size: 18px;
-    max-width: 87%;
+    max-width: 98%;
     text-align: center; }
   .section-contact__inputs :nth-child(4) {
     font-size: 18px;
-    max-width: 87%;
-    width: 100%;
-    margin: .8%;
+    width: 99%;
     text-align: center; }
   .section-contact__mail {
     margin: 40px auto 0 auto; }
     .section-contact__mail__social-ico a img {
-      height: 45px; }
+      height: 40px; }
     .section-contact__mail__gmail p {
       font-size: 21px; }
   .section-contact__contacts {
@@ -1636,22 +1636,22 @@ template {
     margin-top: 5px; }
   .section-contact__inputs {
     margin: 0 auto;
-    width: 95%; }
+    width: 90%; }
     .section-contact__inputs :nth-child(1) {
       font-size: 16px;
-      min-width: 100%;
+      min-width: 98.6%;
       text-align: center; }
     .section-contact__inputs :nth-child(2) {
       font-size: 16px;
-      min-width: 100%;
+      min-width: 98.6%;
       text-align: center; }
     .section-contact__inputs :nth-child(3) {
       font-size: 16px;
-      min-width: 100%;
+      min-width: 98%;
       text-align: center; }
     .section-contact__inputs :nth-child(4) {
       font-size: 16px;
-      min-width: 100%;
+      min-width: 99%;
       text-align: center; }
   .section-contact__mail {
     margin: 40px auto 0 auto; }
@@ -1754,15 +1754,15 @@ template {
     width: 95%; }
     .section-contact__inputs :nth-child(1) {
       font-size: 15px;
-      min-width: 98%;
+      min-width: 98.5%;
       text-align: center; }
     .section-contact__inputs :nth-child(2) {
       font-size: 15px;
-      min-width: 98%;
+      min-width: 98.5%;
       text-align: center; }
     .section-contact__inputs :nth-child(3) {
       font-size: 15px;
-      min-width: 98%;
+      min-width: 97%;
       text-align: center; }
     .section-contact__inputs :nth-child(4) {
       font-size: 15px;

@@ -511,13 +511,13 @@ $screen-320: 320px;
         }
         hr{
             width: 150px;
-            height: 1px;
         }
     }
     &__inputs{
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 99%;
+        margin: 0 auto;
         :nth-child(1){
             font-size: 32px;
             width: 60%;
@@ -547,13 +547,15 @@ $screen-320: 320px;
     }
     &__contacts{
         margin-top: 70px;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         p{
             text-align: center;
             font-size: 32px;
             }
         &__phone{
-           margin: auto 60px auto auto;
+           margin: auto 0 auto auto;
         }
     }
     &__mail{
@@ -771,7 +773,7 @@ $screen-320: 320px;
         }
     }
     &__inputs{
-        margin-left: 20px;
+        margin: auto 5% auto 5%;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -1854,22 +1856,22 @@ $screen-320: 320px;
             width: 85%;
             :nth-child(1){
                 font-size: 21px;
-                min-width: 100%;
+                min-width: 98.6%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 21px;
-                min-width: 100%;
+                min-width: 98.6%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 21px;
-                min-width: 100%;
+                min-width: 98%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 21px;
-                min-width: 100%;
+                min-width: 99%;
                 margin: 0 .5%;
                 text-align: center;
             }
@@ -2192,24 +2194,22 @@ $screen-320: 320px;
         &__inputs{
             :nth-child(1){
                 font-size: 18px;
-                max-width: 87%;
+                max-width: 98.6%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 18px;
-                max-width: 87%;
+                max-width: 98.6%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 18px;
-                max-width: 87%;
+                max-width: 98%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 18px;
-                max-width: 87%;
-                width: 100%;
-                margin: .8%;
+                width: 99%;
                 text-align: center;
             }
         }
@@ -2218,7 +2218,7 @@ $screen-320: 320px;
             &__social-ico{
                 a{
                     img{
-                        height: 45px;
+                        height: 40px;
                     }
                 }
             }
@@ -2463,25 +2463,25 @@ $screen-320: 320px;
         }
         &__inputs{
             margin: 0 auto;
-            width: 95%;
+            width: 90%;
             :nth-child(1){
                 font-size: 16px;
-                min-width: 100%;
+                min-width: 98.6%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 16px;
-                min-width: 100%;
+                min-width: 98.6%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 16px;
-                min-width: 100%;
+                min-width: 98%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 16px;
-                min-width: 100%;
+                min-width: 99%;
                 text-align: center;
             }
         }
@@ -2703,17 +2703,17 @@ $screen-320: 320px;
             width: 95%;
             :nth-child(1){
                 font-size: 15px;
-                min-width: 98%;
+                min-width: 98.5%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 15px;
-                min-width: 98%;
+                min-width: 98.5%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 15px;
-                min-width: 98%;
+                min-width: 97%;
                 text-align: center;
             }
             :nth-child(4){
