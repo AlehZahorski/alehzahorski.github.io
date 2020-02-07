@@ -2386,19 +2386,24 @@ $screen-320: 320px;
             }
         }
         &-technologies{
+            text-align: center;
             &__ico{
                 margin: 0 auto;
+                text-align: center;
                 &__html{
                     margin: 0 auto;
+                    text-align: center;
                     width: 70px;
                 }
                 &__css{
                     margin: 0 auto;
+                    text-align: center;
                     width: 65px;
                     height: 80px;
                 }
                 &__js{
                     margin: 0 auto;
+                    text-align: center;
                     margin-top: 0px;
                     width: 80px;
                 }
@@ -2683,6 +2688,7 @@ $screen-320: 320px;
         &-technologies{
             width: 90%;
             margin: 0 auto;
+            text-align: center;
             &__subtitle{
                 width: 90%;
                 margin: 0 auto;
@@ -2701,6 +2707,7 @@ $screen-320: 320px;
                 }  
             }
             &__ico{ 
+                text-align: center;
                 margin: 0 auto;
                 &__html{
                     margin: 0 auto;
@@ -2793,6 +2800,7 @@ $screen-320: 320px;
             }
         }
         &__inputs{
+            text-align: center;
             width: 90%;
             :nth-child(1){
                 font-size: 15px;
