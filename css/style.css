@@ -663,7 +663,8 @@ template {
     text-align: center;
     margin-bottom: 0; }
   .section-contact__h2 hr {
-    width: 150px; }
+    width: 150px;
+    height: .1; }
   .section-contact__inputs {
     display: flex;
     flex-direction: column;
@@ -1502,15 +1503,15 @@ template {
     margin-top: 5px; }
   .section-contact__inputs :nth-child(1) {
     font-size: 18px;
-    max-width: 98.6%;
+    min-width: 98.2%;
     text-align: center; }
   .section-contact__inputs :nth-child(2) {
     font-size: 18px;
-    max-width: 98.6%;
+    min-width: 98.2%;
     text-align: center; }
   .section-contact__inputs :nth-child(3) {
     font-size: 18px;
-    max-width: 98%;
+    min-width: 97.5%;
     text-align: center; }
   .section-contact__inputs :nth-child(4) {
     font-size: 18px;
@@ -1639,15 +1640,15 @@ template {
     width: 90%; }
     .section-contact__inputs :nth-child(1) {
       font-size: 16px;
-      min-width: 98.6%;
+      min-width: 98.2%;
       text-align: center; }
     .section-contact__inputs :nth-child(2) {
       font-size: 16px;
-      min-width: 98.6%;
+      min-width: 98.2%;
       text-align: center; }
     .section-contact__inputs :nth-child(3) {
       font-size: 16px;
-      min-width: 98%;
+      min-width: 97.5%;
       text-align: center; }
     .section-contact__inputs :nth-child(4) {
       font-size: 16px;

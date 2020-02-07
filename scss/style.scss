@@ -511,6 +511,7 @@ $screen-320: 320px;
         }
         hr{
             width: 150px;
+            height: .1;
         }
     }
     &__inputs{
@@ -2194,17 +2195,17 @@ $screen-320: 320px;
         &__inputs{
             :nth-child(1){
                 font-size: 18px;
-                max-width: 98.6%;
+                min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 18px;
-                max-width: 98.6%;
+                min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 18px;
-                max-width: 98%;
+                min-width: 97.5%;
                 text-align: center;
             }
             :nth-child(4){
@@ -2466,17 +2467,17 @@ $screen-320: 320px;
             width: 90%;
             :nth-child(1){
                 font-size: 16px;
-                min-width: 98.6%;
+                min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 16px;
-                min-width: 98.6%;
+                min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 16px;
-                min-width: 98%;
+                min-width: 97.5%;
                 text-align: center;
             }
             :nth-child(4){
