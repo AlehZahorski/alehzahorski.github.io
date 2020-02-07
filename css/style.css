@@ -1453,9 +1453,9 @@ template {
       width: 100%;
       margin: 0 0 20px auto; }
       .section-standart-technologies__subtitle p {
-        font-size: 19px; }
+        font-size: 20px; }
       .section-standart-technologies__subtitle__second p {
-        font-size: 19px; }
+        font-size: 20px; }
     .section-standart-technologies__ico img {
       width: 180px; }
   .section-about__h2 h2 {
@@ -1470,14 +1470,14 @@ template {
   .section-about__about-me-second__subtitle {
     text-align: center; }
     .section-about__about-me-second__subtitle p {
-      font-size: 19px; }
+      font-size: 20px; }
       .section-about__about-me-second__subtitle p button {
         margin-top: 10px;
         font-size: 20px;
         width: 205px;
         height: 35px; }
   .section-about__about-me-three__subtitle p {
-    font-size: 19px; }
+    font-size: 20px; }
   .section-contact__h2 h2 {
     margin-top: 30px;
     font-size: 30px; }
@@ -1500,7 +1500,7 @@ template {
     font-size: 18px;
     max-width: 87%;
     width: 100%;
-    margin: 0 .5%;
+    margin: .8%;
     text-align: center; }
   .section-contact__mail {
     margin: 40px auto 0 auto; }
@@ -1584,11 +1584,11 @@ template {
     .section-standart-technologies__subtitle {
       width: 100%; }
       .section-standart-technologies__subtitle p {
-        font-size: 16px; }
+        font-size: 19px; }
       .section-standart-technologies__subtitle__second {
         margin-left: 0; }
         .section-standart-technologies__subtitle__second p {
-          font-size: 16px; }
+          font-size: 19px; }
     .section-standart-technologies__ico img {
       width: 160px; }
   .section-about__h2 h2 {
@@ -1598,18 +1598,18 @@ template {
     width: 78px;
     margin-bottom: 20px; }
   .section-about__about-me-first p {
-    font-size: 18px; }
+    font-size: 19px; }
   .section-about__about-me-second__subtitle {
     text-align: center; }
     .section-about__about-me-second__subtitle p {
-      font-size: 18px; }
+      font-size: 19px; }
       .section-about__about-me-second__subtitle p button {
         margin-top: 10px;
         font-size: 20px;
         width: 185px;
         height: 35px; }
   .section-about__about-me-three__subtitle p {
-    font-size: 18px; }
+    font-size: 19px; }
   .section-about__about-me-first__img img {
     width: 200px; }
   .section-about__about-me-three img {
