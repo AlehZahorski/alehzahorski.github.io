@@ -127,6 +127,7 @@ $screen-320: 320px;
     min-height: 100vh;
     width: 100%;
     position: relative;
+    margin-top: 72px;
     &_sticky-menu{
         position: fixed;
         top: 0;
@@ -238,6 +239,7 @@ $screen-320: 320px;
     margin-bottom: 50px;
     &-h2{
         h2{
+            margin-top: 72px;
             margin-bottom: 10px;
             text-align: center;
         }
@@ -319,6 +321,7 @@ $screen-320: 320px;
         }
         text-align: center;
         h2{
+            margin-top: 72px;
             font-size: 40px;
             margin-bottom: 0px;
         }
@@ -446,6 +449,7 @@ $screen-320: 320px;
     margin-bottom: 50px;
     &__h2{
         h2{
+            margin-top: 72px;
             text-align: center;
             margin-bottom: 10px;
         }
@@ -498,9 +502,10 @@ $screen-320: 320px;
 .section-contact{
     color: #707070;
     @include NewsCycle;
-    min-height: 100%;
+    height: 100%;
     &__h2{
         h2{
+            margin-top: 72px;
             text-align: center;
             margin-bottom: 0;
         }
