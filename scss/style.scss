@@ -1670,6 +1670,7 @@ $screen-320: 320px;
         &-start{
             display: flex;
             flex-direction: column-reverse;
+            text-align: center;
             &-text{
                margin: auto auto 0 25px;
                 p{
@@ -1682,6 +1683,7 @@ $screen-320: 320px;
             }
             &-ico{
                 margin: 0 auto;
+                text-align: center;
                 img{
                     width: 170px;
                     height: 170px;
@@ -1689,6 +1691,7 @@ $screen-320: 320px;
             }
         }
         &-technologies{
+            text-align: center;
             &__subtitle{
                 p{
                     font-size: 23px;  
@@ -1705,6 +1708,7 @@ $screen-320: 320px;
                 }  
             }
             &__ico{
+                text-align: center;
                 &__html{
                     width: 90px;
                 }
@@ -1877,6 +1881,7 @@ $screen-320: 320px;
         &__inputs{
             margin: 0 auto;
             width: 80%;
+            text-align: center;
             :nth-child(1){
                 font-size: 21px;
                 min-width: 98.6%;
@@ -2005,6 +2010,7 @@ $screen-320: 320px;
         &-start{
             display: flex;
             flex-direction: column-reverse;
+            text-align: center;
             &-text{
                 width: 90%;
                 margin: 0 auto;
@@ -2031,6 +2037,7 @@ $screen-320: 320px;
             width: 90%;
             display: flex;
             flex-direction: column;
+            text-align: center;
             margin:  0 auto;
             &__subtitle{
                 width: 90%;
@@ -2057,6 +2064,7 @@ $screen-320: 320px;
                 }  
             }
             &__ico{
+                text-align: center;
                 margin: 0 auto;
                 &__html{
                     margin: 0 auto;
@@ -2245,6 +2253,7 @@ $screen-320: 320px;
         &__inputs{
             width: 90%;
             margin: 0 auto;
+            text-align: center;
             :nth-child(1){
                 font-size: 18px;
                 // min-width: 98.2%;
@@ -2363,6 +2372,7 @@ $screen-320: 320px;
         &-start{
             display: flex;
             flex-direction: column-reverse;
+            text-align: center;
             &-text{
                width: 90%;
                margin: 0 auto;
