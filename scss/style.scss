@@ -2009,6 +2009,7 @@ $screen-320: 320px;
         }
         &-start{
             display: flex;
+            margin: 0 auto;
             flex-direction: column-reverse;
             text-align: center;
             &-text{
@@ -2812,6 +2813,7 @@ $screen-320: 320px;
         &__inputs{
             text-align: center;
             width: 90%;
+            margin: 0 auto;
             :nth-child(1){
                 font-size: 15px;
                 min-width: 98.5%;
