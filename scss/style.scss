@@ -2021,6 +2021,7 @@ $screen-320: 320px;
             &-ico{
                 margin: 0 auto;
                 img{
+                    margin: 0 auto;
                     width: 170px;
                     height: 170px;
                 }
@@ -2058,13 +2059,16 @@ $screen-320: 320px;
             &__ico{
                 margin: 0 auto;
                 &__html{
+                    margin: 0 auto;
                     width: 80px;
                 }
                 &__css{
+                    margin: 0 auto;
                     width: 75px;
                     height: 90px;
                 }
                 &__js{
+                    margin: 0 auto;
                     margin-top: 0px;
                     width: 90px;
                 }
@@ -2375,6 +2379,7 @@ $screen-320: 320px;
             &-ico{
                 margin: 0 auto;
                 img{
+                    margin: 0 auto;
                     width: 170px;
                     height: 170px;
                 }
@@ -2384,13 +2389,16 @@ $screen-320: 320px;
             &__ico{
                 margin: 0 auto;
                 &__html{
+                    margin: 0 auto;
                     width: 70px;
                 }
                 &__css{
+                    margin: 0 auto;
                     width: 65px;
                     height: 80px;
                 }
                 &__js{
+                    margin: 0 auto;
                     margin-top: 0px;
                     width: 80px;
                 }
@@ -2648,6 +2656,8 @@ $screen-320: 320px;
         &-start{
             display: flex;
             flex-direction: column-reverse;
+            width: 90%;
+            margin: 0 auto;
             &-text{
                 width: 90%;
                margin: 0 auto;
@@ -2664,13 +2674,18 @@ $screen-320: 320px;
             &-ico{
                 margin: 0 auto;
                 img{
+                    margin: 0 auto;
                     width: 170px;
                     height: 170px;
                 }
             }
         }
         &-technologies{
+            width: 90%;
+            margin: 0 auto;
             &__subtitle{
+                width: 90%;
+                margin: 0 auto;
                 p{
                     font-size: 16px;  
                 }
@@ -2686,15 +2701,18 @@ $screen-320: 320px;
                 }  
             }
             &__ico{ 
-               margin: 0 auto;
+                margin: 0 auto;
                 &__html{
+                    margin: 0 auto;
                     width: 60px;
                 }
                 &__css{
+                    margin: 0 auto;
                     width: 55px;
                     height: 70px;
                 }
                 &__js{
+                    margin: 0 auto;
                     margin-top: 0px;
                     width: 70px;
                 }
@@ -2778,12 +2796,12 @@ $screen-320: 320px;
             width: 90%;
             :nth-child(1){
                 font-size: 15px;
-                // min-width: 98.5%;
+                min-width: 98.5%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 15px;
-                // min-width: 98.5%;
+                min-width: 98.5%;
                 text-align: center;
             }
             :nth-child(3){
