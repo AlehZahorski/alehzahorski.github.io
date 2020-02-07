@@ -45,7 +45,7 @@ $screen-320: 320px;
   position: absolute;
   height: 5px;
   width: 100%;
-  background: #333333;
+  background: #707070;
   border-radius: 9px;
   opacity: 1;
   transform: rotate(0deg);
@@ -120,6 +120,11 @@ $screen-320: 320px;
 // == header ==
 .section-inner{
     max-width: 1000px;
+    hr{
+        height: 1px;
+        background-color: black;
+        color: black;
+    }
 }
 .section-header{
     color: #707070;
@@ -245,6 +250,9 @@ $screen-320: 320px;
         }
         hr{
            max-width: 700px;
+           height: 1px;
+           background-color: #707070;
+           color: #707070;
         }
     }
     &-start{
@@ -328,6 +336,9 @@ $screen-320: 320px;
         hr{
             width: 620px;
             margin-bottom: 20px;
+            height: 1px;
+           background-color: #707070;
+           color: #707070;
         }  
     }
     &__allproject{
@@ -374,7 +385,6 @@ $screen-320: 320px;
     color: #707070;
     @include NewsCycle;
     min-height: 100%;
-    margin-bottom: 50px;
     &__tytle{
         h2{
             text-align: center;
@@ -382,6 +392,9 @@ $screen-320: 320px;
         }
         hr{
             width: 550px;
+            height: 1px;
+           background-color: #707070;
+           color: #707070;
         }
     }
     &-start{
@@ -455,6 +468,9 @@ $screen-320: 320px;
         }
         hr{
             width: 150px;
+            height: 1px;
+           background-color: #707070;
+           color: #707070;
         }
     }
     &__about-me-first{
@@ -511,7 +527,9 @@ $screen-320: 320px;
         }
         hr{
             width: 150px;
-            height: .1;
+            height: 1px;
+           background-color: #707070;
+           color: #707070;
         }
     }
     &__inputs{
@@ -1978,7 +1996,8 @@ $screen-320: 320px;
             display: flex;
             flex-direction: column-reverse;
             &-text{
-               margin: auto auto 0 0;
+                width: 90%;
+                margin: 0 auto;
                 p{
                     font-size: 21px;
                     text-align: center;
@@ -1998,25 +2017,28 @@ $screen-320: 320px;
             }
         }
         &-technologies{
-            width: 100%;
+            width: 90%;
             display: flex;
             flex-direction: column;
-            margin:  auto 0 auto 0;
+            margin:  0 auto;
             &__subtitle{
-                margin: auto 0 auto 0;
+                width: 90%;
+                margin: 0 auto;
                 p{
                     font-size: 21px;  
                     text-align: center;
                 }
                 &__second{
-                    margin: auto 0 auto 0;
+                    width: 90%;
+                    margin: 0 auto;
                     p{
                         font-size: 21px;
                         text-align: center;
                     } 
                 }
                 &__three{
-                    margin: auto 0 auto 0;
+                    width: 90%;
+           margin: 0 auto;
                     p{
                         font-size: 21px;
                         text-align: center;
@@ -2077,11 +2099,15 @@ $screen-320: 320px;
             }
         }
         &__textfirst{
+            width: 90%;
+            margin: 0 auto;
             p{
                 font-size: 19px;
             }
         }
         &__textsecond{
+            width: 90%;
+            margin: 0 auto;
            p{
                font-size: 19px;
            }
@@ -2094,6 +2120,8 @@ $screen-320: 320px;
            }
        }
        &__randomfunny{
+           width: 90%;
+           margin: 0 auto;
            p{
                font-size: 19px;
            }
@@ -2115,15 +2143,18 @@ $screen-320: 320px;
         &-technologies{
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: 90%;
+            margin: 0 auto;
             text-align: center;
             &__subtitle{
-                width: 100%;
-                margin: 0 0 20px auto;
+                width: 90%;
+                margin: 0 auto;
                 p{
                  font-size: 20px;
                 }
                 &__second{
+                    width: 90%;
+                    margin: 0 auto;
                 p{
                     font-size: 20px;
                 }
@@ -2152,6 +2183,8 @@ $screen-320: 320px;
             }
         }
         &__about-me-first{
+            width: 90%;
+            margin: 0 auto;
            p{
                font-size: 19px;
            }
@@ -2159,6 +2192,8 @@ $screen-320: 320px;
         &__about-me-second{
            &__subtitle{
             text-align: center;
+            width: 90%;
+            margin: 0 auto;
                p{
                    font-size: 20px;
                    button{
@@ -2184,7 +2219,7 @@ $screen-320: 320px;
     .section-contact{
         &__h2{
             h2{
-                margin-top: 30px;
+                margin-top: 72px;
                 font-size: 30px;
             }
             hr{
@@ -2306,7 +2341,8 @@ $screen-320: 320px;
             display: flex;
             flex-direction: column-reverse;
             &-text{
-               margin: auto auto 0 0;
+               width: 90%;
+               margin: 0 auto;
                 p{
                     font-size: 21px;
                     text-align: center;
@@ -2377,12 +2413,14 @@ $screen-320: 320px;
         }
         &-technologies{
             &__subtitle{
-                width: 100%;
+                width: 90%;
+                margin: 0 auto;
                 p{
                  font-size: 19px;
                 }
                 &__second{
-                        margin-left: 0;
+                    width: 90%;
+                    margin: 0 auto;
                 p{
                     font-size: 19px;
                 }
@@ -2410,6 +2448,8 @@ $screen-320: 320px;
             }
         }
         &__about-me-first{
+            width: 90%;
+            margin: 0 auto;
            p{
                font-size: 19px;
            }
@@ -2417,6 +2457,8 @@ $screen-320: 320px;
         &__about-me-second{
            &__subtitle{
             text-align: center;
+            width: 90%;
+            margin: 0 auto;
                p{
                    font-size: 19px;
                    button{
@@ -2452,6 +2494,8 @@ $screen-320: 320px;
     
     // == contact ==
      .section-contact{
+        width: 90%;
+        margin: 0 auto;
         &__h2{
             h2{
                 margin-top: 30px;
@@ -2491,7 +2535,7 @@ $screen-320: 320px;
             &__social-ico{
                 a{
                     img{
-                        height: 35px;
+                        height: 26px;
                     }
                 }
             }

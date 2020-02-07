@@ -64,7 +64,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+  border: none; }
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.

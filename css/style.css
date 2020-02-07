@@ -64,7 +64,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+  border: none; }
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -339,7 +340,7 @@ template {
   position: absolute;
   height: 5px;
   width: 100%;
-  background: #333333;
+  background: #707070;
   border-radius: 9px;
   opacity: 1;
   transform: rotate(0deg);
@@ -395,6 +396,10 @@ template {
 
 .section-inner {
   max-width: 1000px; }
+  .section-inner hr {
+    height: 1px;
+    background-color: black;
+    color: black; }
 
 .section-header {
   color: #707070;
@@ -485,7 +490,10 @@ template {
     margin-bottom: 10px;
     text-align: center; }
   .section-stack-h2 hr {
-    max-width: 700px; }
+    max-width: 700px;
+    height: 1px;
+    background-color: #707070;
+    color: #707070; }
   .section-stack-start {
     min-width: 100%;
     display: inline-flex;
@@ -544,7 +552,10 @@ template {
       margin-bottom: 0px; }
     .section-project__promo hr {
       width: 620px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      height: 1px;
+      background-color: #707070;
+      color: #707070; }
   .section-project__allproject {
     margin: 30px auto auto 15px;
     width: 100%;
@@ -571,13 +582,15 @@ template {
 .section-standart {
   color: #707070;
   font-family: 'News Cycle', sans-serif;
-  min-height: 100%;
-  margin-bottom: 50px; }
+  min-height: 100%; }
   .section-standart__tytle h2 {
     text-align: center;
     margin-bottom: 10px; }
   .section-standart__tytle hr {
-    width: 550px; }
+    width: 550px;
+    height: 1px;
+    background-color: #707070;
+    color: #707070; }
   .section-standart-start {
     min-width: 100%;
     display: inline-flex;
@@ -628,7 +641,10 @@ template {
     text-align: center;
     margin-bottom: 10px; }
   .section-about__h2 hr {
-    width: 150px; }
+    width: 150px;
+    height: 1px;
+    background-color: #707070;
+    color: #707070; }
   .section-about__about-me-first {
     display: flex; }
     .section-about__about-me-first p {
@@ -664,7 +680,9 @@ template {
     margin-bottom: 0; }
   .section-contact__h2 hr {
     width: 150px;
-    height: .1; }
+    height: 1px;
+    background-color: #707070;
+    color: #707070; }
   .section-contact__inputs {
     display: flex;
     flex-direction: column;
@@ -1382,7 +1400,8 @@ template {
     display: flex;
     flex-direction: column-reverse; }
     .section-stack-start-text {
-      margin: auto auto 0 0; }
+      width: 90%;
+      margin: 0 auto; }
       .section-stack-start-text p {
         font-size: 21px;
         text-align: center; }
@@ -1396,22 +1415,25 @@ template {
         width: 170px;
         height: 170px; }
   .section-stack-technologies {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    margin: auto 0 auto 0; }
+    margin: 0 auto; }
     .section-stack-technologies__subtitle {
-      margin: auto 0 auto 0; }
+      width: 90%;
+      margin: 0 auto; }
       .section-stack-technologies__subtitle p {
         font-size: 21px;
         text-align: center; }
       .section-stack-technologies__subtitle__second {
-        margin: auto 0 auto 0; }
+        width: 90%;
+        margin: 0 auto; }
         .section-stack-technologies__subtitle__second p {
           font-size: 21px;
           text-align: center; }
       .section-stack-technologies__subtitle__three {
-        margin: auto 0 auto 0; }
+        width: 90%;
+        margin: 0 auto; }
         .section-stack-technologies__subtitle__three p {
           font-size: 21px;
           text-align: center; }
@@ -1445,17 +1467,26 @@ template {
     .section-project__allproject__choice a img {
       max-width: 310px;
       margin-bottom: 10px; }
-  .section-project__textfirst p {
-    font-size: 19px; }
-  .section-project__textsecond p {
-    font-size: 19px; }
-  .section-project__textsecond hr {
-    margin-top: 5px;
-    width: 80%; }
-  .section-project__textsecond img {
-    width: 36px; }
-  .section-project__randomfunny p {
-    font-size: 19px; }
+  .section-project__textfirst {
+    width: 90%;
+    margin: 0 auto; }
+    .section-project__textfirst p {
+      font-size: 19px; }
+  .section-project__textsecond {
+    width: 90%;
+    margin: 0 auto; }
+    .section-project__textsecond p {
+      font-size: 19px; }
+    .section-project__textsecond hr {
+      margin-top: 5px;
+      width: 80%; }
+    .section-project__textsecond img {
+      width: 36px; }
+  .section-project__randomfunny {
+    width: 90%;
+    margin: 0 auto; }
+    .section-project__randomfunny p {
+      font-size: 19px; }
   .section-standart__tytle h2 {
     margin-bottom: 10px;
     font-size: 20px; }
@@ -1464,15 +1495,19 @@ template {
   .section-standart-technologies {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     text-align: center; }
     .section-standart-technologies__subtitle {
-      width: 100%;
-      margin: 0 0 20px auto; }
+      width: 90%;
+      margin: 0 auto; }
       .section-standart-technologies__subtitle p {
         font-size: 20px; }
-      .section-standart-technologies__subtitle__second p {
-        font-size: 20px; }
+      .section-standart-technologies__subtitle__second {
+        width: 90%;
+        margin: 0 auto; }
+        .section-standart-technologies__subtitle__second p {
+          font-size: 20px; }
     .section-standart-technologies__ico img {
       width: 180px; }
   .section-about__h2 h2 {
@@ -1482,10 +1517,15 @@ template {
   .section-about__h2 hr {
     width: 85px;
     margin-bottom: 20px; }
-  .section-about__about-me-first p {
-    font-size: 19px; }
+  .section-about__about-me-first {
+    width: 90%;
+    margin: 0 auto; }
+    .section-about__about-me-first p {
+      font-size: 19px; }
   .section-about__about-me-second__subtitle {
-    text-align: center; }
+    text-align: center;
+    width: 90%;
+    margin: 0 auto; }
     .section-about__about-me-second__subtitle p {
       font-size: 20px; }
       .section-about__about-me-second__subtitle p button {
@@ -1496,7 +1536,7 @@ template {
   .section-about__about-me-three__subtitle p {
     font-size: 20px; }
   .section-contact__h2 h2 {
-    margin-top: 30px;
+    margin-top: 72px;
     font-size: 30px; }
   .section-contact__h2 hr {
     width: 110px;
@@ -1562,7 +1602,8 @@ template {
     display: flex;
     flex-direction: column-reverse; }
     .section-stack-start-text {
-      margin: auto auto 0 0; }
+      width: 90%;
+      margin: 0 auto; }
       .section-stack-start-text p {
         font-size: 21px;
         text-align: center; }
@@ -1597,11 +1638,13 @@ template {
     .section-standart__tytle hr {
       width: 280px; }
     .section-standart-technologies__subtitle {
-      width: 100%; }
+      width: 90%;
+      margin: 0 auto; }
       .section-standart-technologies__subtitle p {
         font-size: 19px; }
       .section-standart-technologies__subtitle__second {
-        margin-left: 0; }
+        width: 90%;
+        margin: 0 auto; }
         .section-standart-technologies__subtitle__second p {
           font-size: 19px; }
     .section-standart-technologies__ico img {
@@ -1612,10 +1655,15 @@ template {
   .section-about__h2 hr {
     width: 78px;
     margin-bottom: 20px; }
-  .section-about__about-me-first p {
-    font-size: 19px; }
+  .section-about__about-me-first {
+    width: 90%;
+    margin: 0 auto; }
+    .section-about__about-me-first p {
+      font-size: 19px; }
   .section-about__about-me-second__subtitle {
-    text-align: center; }
+    text-align: center;
+    width: 90%;
+    margin: 0 auto; }
     .section-about__about-me-second__subtitle p {
       font-size: 19px; }
       .section-about__about-me-second__subtitle p button {
@@ -1629,45 +1677,48 @@ template {
     width: 200px; }
   .section-about__about-me-three img {
     width: 160px; }
-  .section-contact__h2 h2 {
-    margin-top: 30px;
-    font-size: 18px; }
-  .section-contact__h2 hr {
-    width: 110px;
-    margin-top: 5px; }
-  .section-contact__inputs {
-    margin: 0 auto;
-    width: 90%; }
-    .section-contact__inputs :nth-child(1) {
-      font-size: 16px;
-      min-width: 98.2%;
-      text-align: center; }
-    .section-contact__inputs :nth-child(2) {
-      font-size: 16px;
-      min-width: 98.2%;
-      text-align: center; }
-    .section-contact__inputs :nth-child(3) {
-      font-size: 16px;
-      min-width: 97.5%;
-      text-align: center; }
-    .section-contact__inputs :nth-child(4) {
-      font-size: 16px;
-      min-width: 99%;
-      text-align: center; }
-  .section-contact__mail {
-    margin: 40px auto 0 auto; }
-    .section-contact__mail__social-ico a img {
-      height: 35px; }
-    .section-contact__mail__gmail p {
-      font-size: 21px; }
-  .section-contact__contacts {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+  .section-contact {
+    width: 90%;
     margin: 0 auto; }
-    .section-contact__contacts p {
-      text-align: center;
-      font-size: 19px; } }
+    .section-contact__h2 h2 {
+      margin-top: 30px;
+      font-size: 18px; }
+    .section-contact__h2 hr {
+      width: 110px;
+      margin-top: 5px; }
+    .section-contact__inputs {
+      margin: 0 auto;
+      width: 90%; }
+      .section-contact__inputs :nth-child(1) {
+        font-size: 16px;
+        min-width: 98.2%;
+        text-align: center; }
+      .section-contact__inputs :nth-child(2) {
+        font-size: 16px;
+        min-width: 98.2%;
+        text-align: center; }
+      .section-contact__inputs :nth-child(3) {
+        font-size: 16px;
+        min-width: 97.5%;
+        text-align: center; }
+      .section-contact__inputs :nth-child(4) {
+        font-size: 16px;
+        min-width: 99%;
+        text-align: center; }
+    .section-contact__mail {
+      margin: 40px auto 0 auto; }
+      .section-contact__mail__social-ico a img {
+        height: 26px; }
+      .section-contact__mail__gmail p {
+        font-size: 21px; }
+    .section-contact__contacts {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto; }
+      .section-contact__contacts p {
+        text-align: center;
+        font-size: 19px; } }
 
 @media (max-width: 320px) {
   .section-header-menu-logo span {
