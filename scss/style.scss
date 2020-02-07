@@ -2238,24 +2238,26 @@ $screen-320: 320px;
             }
         }
         &__inputs{
+            width: 90%;
+            margin: 0 auto;
             :nth-child(1){
                 font-size: 18px;
-                min-width: 98.2%;
+                // min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 18px;
-                min-width: 98.2%;
+                // min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 18px;
-                min-width: 97.5%;
+                // min-width: 97.5%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 18px;
-                width: 99%;
+                // width: 99%;
                 text-align: center;
             }
         }
@@ -2528,22 +2530,22 @@ $screen-320: 320px;
             width: 90%;
             :nth-child(1){
                 font-size: 16px;
-                min-width: 98.2%;
+                // min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 16px;
-                min-width: 98.2%;
+                // min-width: 98.2%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 16px;
-                min-width: 97.5%;
+                // min-width: 97.5%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 16px;
-                min-width: 99%;
+                // min-width: 99%;
                 text-align: center;
             }
         }
@@ -2772,26 +2774,26 @@ $screen-320: 320px;
             }
         }
         &__inputs{
-            width: 95%;
+            width: 90%;
             :nth-child(1){
                 font-size: 15px;
-                min-width: 98.5%;
+                // min-width: 98.5%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 15px;
-                min-width: 98.5%;
+                // min-width: 98.5%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 15px;
-                min-width: 97%;
+                // min-width: 97%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 15px;
-                min-width: 98%;
-                width: 100%;
+                // min-width: 98%;
+                // width: 100%;
                 margin: 0 0;
                 text-align: center;
             }
