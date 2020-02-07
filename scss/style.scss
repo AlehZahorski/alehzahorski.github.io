@@ -118,12 +118,21 @@ $screen-320: 320px;
 // == /menu ==
 
 // == header ==
+.section-inner{
+    max-width: 1000px;
+}
 .section-header{
     color: #707070;
     @include NewsCycle;
     min-height: 100vh;
     width: 100%;
     position: relative;
+    &_sticky-menu{
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+    }
     &__button{
         width: 100%;        
         position: fixed;
@@ -503,32 +512,32 @@ $screen-320: 320px;
     &__inputs{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         :nth-child(1){
             font-size: 32px;
-            width: 467px;
+            width: 60%;
             height: 65px;
             margin-top: 30px;
             margin-bottom: 30px;
         }
         :nth-child(2){
             font-size: 32px;
-            width: 661px;
+            width: 70%;
             height:65px;
             margin-bottom: 30px;
         }
         :nth-child(3){
             font-size: 32px;
-            width: 933px;
+            width: 99.5%;
             height: 280px;
             margin-bottom: 30px;
             resize: none;
         }
         :nth-child(4){
             font-size: 32px;
-            width: 272px;
+            width: 40%;
             height: 65px;
-            margin: auto 60px auto auto;
+            margin: auto 0 auto auto;
         }
     }
     &__contacts{
@@ -1836,26 +1845,26 @@ $screen-320: 320px;
             }
         }
         &__inputs{
+            margin: 0 auto;
+            width: 85%;
             :nth-child(1){
                 font-size: 21px;
-                max-width: 90%;
-                width: 100%;
+                min-width: 100%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 21px;
-                max-width: 90%;
+                min-width: 100%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 21px;
-                max-width: 90%;
+                min-width: 100%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 21px;
-                max-width: 90%;
-                width: 100%;
+                min-width: 100%;
                 margin: 0 .5%;
                 text-align: center;
             }
@@ -2448,24 +2457,26 @@ $screen-320: 320px;
             }
         }
         &__inputs{
+            margin: 0 auto;
+            width: 95%;
             :nth-child(1){
                 font-size: 16px;
-                max-width: 85%;
+                min-width: 100%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 16px;
-                max-width: 85%;
+                min-width: 100%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 16px;
-                max-width: 85%;
+                min-width: 100%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 16px;
-                max-width: 85%;
+                min-width: 100%;
                 text-align: center;
             }
         }
@@ -2684,24 +2695,25 @@ $screen-320: 320px;
             }
         }
         &__inputs{
+            width: 95%;
             :nth-child(1){
                 font-size: 15px;
-                max-width: 85%;
+                min-width: 98%;
                 text-align: center;
             }
             :nth-child(2){
                 font-size: 15px;
-                max-width: 85%;
+                min-width: 98%;
                 text-align: center;
             }
             :nth-child(3){
                 font-size: 15px;
-                max-width: 85%;
+                min-width: 98%;
                 text-align: center;
             }
             :nth-child(4){
                 font-size: 15px;
-                max-width: 85%;
+                min-width: 98%;
                 width: 100%;
                 margin: 0 0;
                 text-align: center;
