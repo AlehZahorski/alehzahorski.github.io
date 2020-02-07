@@ -136,9 +136,9 @@ $screen-320: 320px;
     &_sticky-menu{
         position: fixed;
         top: 0;
-        background-color: #fff;
+        background-color: white;
         width: 100%;
-    }
+        }
     &__button{
         width: 100%;        
         position: fixed;
@@ -188,9 +188,6 @@ $screen-320: 320px;
                 width: 0;
             }
         }
-        hr{
-            width: 90%;
-        }
     }
     &-wrapper{
         &-tittle{
@@ -215,6 +212,10 @@ $screen-320: 320px;
                    width: 411px;
                    h3{
                     font-weight: 400;
+                   }
+                   hr{
+                       height: 1px;
+                       background-color: #707070;
                    }
                 }
                 &__button{
@@ -612,9 +613,6 @@ $screen-320: 320px;
          &-menu{
              &-list{
                  font-size: 26px;
-             }
-             hr{
-                 width: 500px;
              }
          }
          &-wrapper{
@@ -1125,11 +1123,11 @@ $screen-320: 320px;
     display: none;
     top: -8px;
     left: 0;
-    margin-top: 60px;
     width: 100vw;
     height: 100vh;
     background-color: rgba(48, 48, 48, 0.959);
     overflow: auto;
+    z-index: -1;
 }
   
 .menu__links-item {
@@ -1872,7 +1870,7 @@ $screen-320: 320px;
         }
         &__inputs{
             margin: 0 auto;
-            width: 85%;
+            width: 80%;
             :nth-child(1){
                 font-size: 21px;
                 min-width: 98.6%;

@@ -411,7 +411,7 @@ template {
   .section-header_sticky-menu {
     position: fixed;
     top: 0;
-    background-color: #fff;
+    background-color: white;
     width: 100%; }
   .section-header__button {
     width: 100%;
@@ -451,8 +451,6 @@ template {
       .section-header-menu__burger-menu img {
         opacity: 0;
         width: 0; }
-    .section-header-menu hr {
-      width: 90%; }
   .section-header-wrapper-tittle {
     margin-top: 150px;
     text-align: center; }
@@ -471,6 +469,9 @@ template {
         width: 411px; }
         .section-header-wrapper-information-text__subtittle h3 {
           font-weight: 400; }
+        .section-header-wrapper-information-text__subtittle hr {
+          height: 1px;
+          background-color: #707070; }
       .section-header-wrapper-information-text__button {
         font-size: 30px; }
         .section-header-wrapper-information-text__button-size {
@@ -729,8 +730,6 @@ template {
 @media (max-width: 970px) {
   .section-header-menu-list {
     font-size: 26px; }
-  .section-header-menu hr {
-    width: 500px; }
   .section-header-wrapper-information-text__subtittle {
     text-align: center; }
     .section-header-wrapper-information-text__subtittle h3 {
@@ -977,11 +976,11 @@ template {
     display: none;
     top: -8px;
     left: 0;
-    margin-top: 60px;
     width: 100vw;
     height: 100vh;
     background-color: rgba(48, 48, 48, 0.959);
-    overflow: auto; }
+    overflow: auto;
+    z-index: -1; }
   .menu__links-item {
     display: block;
     margin-bottom: 10px;
@@ -1332,7 +1331,7 @@ template {
     font-size: 30px; }
   .section-contact__inputs {
     margin: 0 auto;
-    width: 85%; }
+    width: 80%; }
     .section-contact__inputs :nth-child(1) {
       font-size: 21px;
       min-width: 98.6%;
