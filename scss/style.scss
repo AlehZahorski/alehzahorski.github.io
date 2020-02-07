@@ -1962,6 +1962,9 @@ $screen-320: 320px;
                 text-align: center;
                 margin: 0 auto;             
                &-text{
+                   width: 290px;
+                text-align: center;
+                margin: 0 auto;   
                    &__subtittle{
                        width: 290px;
                        text-align: center;
@@ -2313,6 +2316,9 @@ $screen-320: 320px;
                 text-align: center;   
                 margin: 0 auto;
                &-text{
+                width: 250px;
+                text-align: center;
+                margin: 0 auto;   
                    &__subtittle{
                        width: 250px;
                        text-align: center;
@@ -2373,6 +2379,7 @@ $screen-320: 320px;
         }
         &-technologies{
             &__ico{
+                margin: 0 auto;
                 &__html{
                     width: 70px;
                 }
@@ -2595,6 +2602,9 @@ $screen-320: 320px;
                 display: flex;
                 flex-direction: column;                
                &-text{
+                width: 220px;
+                text-align: center;
+                margin: 0 auto;   
                    &__subtittle{
                        width: 220px;
                        text-align: center;
@@ -2636,7 +2646,8 @@ $screen-320: 320px;
             display: flex;
             flex-direction: column-reverse;
             &-text{
-               margin: auto auto 0 0;
+                width: 90%;
+               margin: 0 auto;
                 p{
                     font-size: 16px;
                     text-align: center;
@@ -2671,7 +2682,8 @@ $screen-320: 320px;
                     } 
                 }  
             }
-            &__ico{
+            &__ico{ 
+               margin: 0 auto;
                 &__html{
                     width: 60px;
                 }
