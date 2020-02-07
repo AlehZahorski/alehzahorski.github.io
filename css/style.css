@@ -491,7 +491,7 @@ template {
     margin-bottom: 10px;
     text-align: center; }
   .section-stack-h2 hr {
-    max-width: 700px;
+    max-width: 35%;
     height: 1px;
     background-color: #707070;
     color: #707070; }
@@ -552,7 +552,7 @@ template {
       font-size: 40px;
       margin-bottom: 0px; }
     .section-project__promo hr {
-      width: 620px;
+      width: 35%;
       margin-bottom: 20px;
       height: 1px;
       background-color: #707070;
@@ -588,7 +588,7 @@ template {
     text-align: center;
     margin-bottom: 10px; }
   .section-standart__tytle hr {
-    width: 550px;
+    width: 35%;
     height: 1px;
     background-color: #707070;
     color: #707070; }
@@ -680,7 +680,7 @@ template {
     text-align: center;
     margin-bottom: 0; }
   .section-contact__h2 hr {
-    width: 150px;
+    width: 20%;
     height: 1px;
     background-color: #707070;
     color: #707070; }
@@ -805,8 +805,6 @@ template {
     text-align: center;
     margin-bottom: 0;
     font-size: 38px; }
-  .section-contact__h2 hr {
-    width: 150px; }
   .section-contact__inputs {
     margin: auto 5% auto 5%;
     display: flex;
@@ -874,7 +872,7 @@ template {
   .section-stack h2 {
     font-size: 35px; }
   .section-stack hr {
-    width: 600px; }
+    width: 40%; }
   .section-stack-start-text {
     margin: auto auto 0 25px; }
     .section-stack-start-text p {
@@ -892,6 +890,8 @@ template {
     font-size: 35px; }
   .section-project__promo a {
     font-size: 26px; }
+  .section-project__promo hr {
+    width: 30%; }
   .section-project__allproject {
     margin: 35px 10px auto auto;
     display: grid;
@@ -945,7 +945,7 @@ template {
   .section-contact__h2 h2 {
     font-size: 35px; }
   .section-contact__h2 hr {
-    width: 140px; }
+    width: 25%; }
   .section-contact__inputs :nth-child(1) {
     font-size: 27px; }
   .section-contact__inputs :nth-child(2) {
@@ -977,7 +977,7 @@ template {
     top: -8px;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
     background-color: rgba(48, 48, 48, 0.959);
     overflow: auto;
     z-index: -1; }
@@ -1021,7 +1021,7 @@ template {
   .section-project__promo a {
     font-size: 25px; }
   .section-project__promo hr {
-    width: 80%; }
+    width: 30%; }
   .section-project__allproject__choice {
     width: 300px; }
     .section-project__allproject__choice a img {
@@ -1037,7 +1037,7 @@ template {
     .section-standart__tytle h2 {
       font-size: 34px; }
     .section-standart__tytle hr {
-      max-width: 480px; }
+      width: 60%; }
   .section-standart-technologies__subtitle p {
     font-size: 25px; }
   .section-standart-technologies__subtitle__second p {
@@ -1127,7 +1127,7 @@ template {
   .section-project__promo a {
     font-size: 22px; }
   .section-project__promo hr {
-    width: 80%; }
+    width: 30%; }
   .section-project__allproject {
     display: grid;
     grid-template-columns: 1fr; }
@@ -1148,7 +1148,7 @@ template {
   .section-standart__tytle h2 {
     font-size: 32px; }
   .section-standart__tytle hr {
-    max-width: 520px; }
+    max-width: 60%; }
   .section-standart-technologies__subtitle p {
     font-size: 22px; }
   .section-standart-technologies__subtitle__second p {
@@ -1249,7 +1249,7 @@ template {
   .section-project__promo a {
     font-size: 21px; }
   .section-project__promo hr {
-    width: 80%; }
+    width: 35%; }
   .section-project__allproject__choice {
     width: 400px; }
     .section-project__allproject__choice a img {
@@ -1459,7 +1459,7 @@ template {
   .section-project__promo hr {
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 90%; }
+    width: 40%; }
   .section-project__allproject__choice {
     width: 300px;
     margin: 0 auto; }

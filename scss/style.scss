@@ -250,7 +250,7 @@ $screen-320: 320px;
             text-align: center;
         }
         hr{
-           max-width: 700px;
+           max-width: 35%;
            height: 1px;
            background-color: #707070;
            color: #707070;
@@ -335,7 +335,7 @@ $screen-320: 320px;
             margin-bottom: 0px;
         }
         hr{
-            width: 620px;
+            width: 35%;
             margin-bottom: 20px;
             height: 1px;
            background-color: #707070;
@@ -392,7 +392,7 @@ $screen-320: 320px;
             margin-bottom: 10px;
         }
         hr{
-            width: 550px;
+            width: 35%;
             height: 1px;
            background-color: #707070;
            color: #707070;
@@ -527,7 +527,7 @@ $screen-320: 320px;
             margin-bottom: 0;
         }
         hr{
-            width: 150px;
+            width: 20%;
             height: 1px;
            background-color: #707070;
            color: #707070;
@@ -785,9 +785,6 @@ $screen-320: 320px;
             margin-bottom: 0;
             font-size: 38px;
         }
-        hr{
-            width: 150px;
-        }
     }
     &__inputs{
         margin: auto 5% auto 5%;
@@ -900,7 +897,7 @@ $screen-320: 320px;
             font-size: 35px;
         }
         hr{
-            width: 600px;
+            width: 40%;
         }
         &-start{
             &-text{
@@ -944,6 +941,9 @@ $screen-320: 320px;
         }
         a{
             font-size: 26px;
+        }
+        hr{
+            width: 30%;
         }
     }
     &__allproject{
@@ -1063,7 +1063,7 @@ $screen-320: 320px;
                 font-size: 35px;
             }
             hr{
-                width: 140px;
+                width: 25%;
             }
         }
         &__inputs{
@@ -1124,7 +1124,7 @@ $screen-320: 320px;
     top: -8px;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 105vh;
     background-color: rgba(48, 48, 48, 0.959);
     overflow: auto;
     z-index: -1;
@@ -1217,7 +1217,7 @@ $screen-320: 320px;
                 font-size: 25px;
             }
             hr{
-                width: 80%;
+                width: 30%;
             }
         }
         &__allproject{
@@ -1256,7 +1256,7 @@ $screen-320: 320px;
                 font-size: 34px;
             }
             hr{
-                max-width: 480px;
+                width: 60%;
             }
         }
         &-technologies{
@@ -1462,7 +1462,7 @@ $screen-320: 320px;
                 font-size: 22px;
             }
             hr{
-                width: 80%;
+                width: 30%;
             }
         }
         &__allproject{
@@ -1507,7 +1507,7 @@ $screen-320: 320px;
                 font-size: 32px;
             }
             hr{
-                max-width: 520px;
+                max-width: 60%;
             }
         }
         &-technologies{
@@ -1725,7 +1725,7 @@ $screen-320: 320px;
                 font-size: 21px;
             }
             hr{
-                width: 80%;
+                width: 35%;
             }
         }
         &__allproject{
@@ -2081,7 +2081,7 @@ $screen-320: 320px;
             hr{
                 margin-top: 5px;
                 margin-bottom: 10px;
-                width: 90%;
+                width: 40%;
             }
         }
         &__allproject{
