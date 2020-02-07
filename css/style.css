@@ -1692,7 +1692,7 @@ template {
       width: 220px;
       height: 220px; }
   .section-stack h2 {
-    font-size: 16px; }
+    font-size: 25px; }
   .section-stack hr {
     margin: 0 auto;
     max-width: 210px; }
@@ -1728,7 +1728,7 @@ template {
     margin-top: 0px;
     width: 70px; }
   .section-project__promo h2 {
-    font-size: 16px; }
+    font-size: 25px; }
   .section-project__promo a {
     font-size: 15px;
     margin-left: 15px;
@@ -1740,13 +1740,15 @@ template {
       max-width: 240px; }
   .section-standart__tytle hr {
     width: 230px; }
+  .section-about__h2 h2 {
+    font-size: 25px; }
   .section-about__about-me-first__img img {
     width: 200px; }
   .section-about__about-me-three img {
     width: 140px; }
   .section-contact__h2 h2 {
     margin-top: 30px;
-    font-size: 18px; }
+    font-size: 25px; }
   .section-contact__h2 hr {
     width: 110px;
     margin-top: 5px; }

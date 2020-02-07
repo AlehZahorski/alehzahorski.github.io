@@ -2571,7 +2571,7 @@ $screen-320: 320px;
     // == stack ==
      .section-stack{
          h2{
-             font-size: 16px;
+            font-size: 25px;
          }
         hr{
             margin: 0 auto;
@@ -2637,7 +2637,7 @@ $screen-320: 320px;
      .section-project{
         &__promo{
             h2{
-                font-size: 16px;
+                font-size: 25px;
             }
             a{
                 font-size: 15px;
@@ -2672,6 +2672,11 @@ $screen-320: 320px;
     
     // == about ==
      .section-about{
+         &__h2{
+             h2{
+                font-size: 25px;
+             }
+         }
          &__about-me-first{
              &__img{
                  img{
@@ -2692,7 +2697,7 @@ $screen-320: 320px;
         &__h2{
             h2{
                 margin-top: 30px;
-                font-size: 18px;
+                font-size: 25px;
             }
             hr{
                 width: 110px;
