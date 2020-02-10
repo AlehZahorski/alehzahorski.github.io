@@ -452,7 +452,7 @@ template {
         opacity: 0;
         width: 0; }
   .section-header-wrapper-tittle {
-    margin-top: 150px;
+    margin-top: 200px;
     text-align: center; }
   .section-header-wrapper-information {
     display: inline-flex;
@@ -687,30 +687,36 @@ template {
   .section-contact__inputs {
     display: flex;
     flex-direction: column;
-    width: 99%;
+    width: 100%;
     margin: 0 auto; }
     .section-contact__inputs :nth-child(1) {
+      margin: 0 auto;
       font-size: 32px;
-      width: 60%;
+      width: 90%;
       height: 65px;
       margin-top: 30px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      border-radius: 0px; }
     .section-contact__inputs :nth-child(2) {
+      margin: 0 auto;
       font-size: 32px;
-      width: 70%;
+      width: 90%;
       height: 65px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      border-radius: 0px; }
     .section-contact__inputs :nth-child(3) {
+      margin: 0 auto;
       font-size: 32px;
-      width: 99.5%;
+      width: 90%;
+      border-radius: 0px;
       height: 280px;
       margin-bottom: 30px;
       resize: none; }
     .section-contact__inputs :nth-child(4) {
       font-size: 32px;
-      width: 40%;
+      width: 90%;
       height: 65px;
-      margin: auto 0 auto auto; }
+      margin: 0 auto; }
   .section-contact__contacts {
     margin-top: 70px;
     width: 90%;
@@ -806,32 +812,19 @@ template {
     margin-bottom: 0;
     font-size: 38px; }
   .section-contact__inputs {
-    margin: auto 5% auto 5%;
-    display: flex;
-    flex-direction: column;
-    width: 100%; }
+    margin: 0 auto; }
     .section-contact__inputs :nth-child(1) {
-      font-size: 29px;
-      max-width: 50%;
-      height: 55px;
-      margin-top: 30px;
-      margin-bottom: 30px; }
+      width: 90%;
+      font-size: 27px; }
     .section-contact__inputs :nth-child(2) {
-      font-size: 29px;
-      max-width: 70%;
-      height: 55px;
-      margin-bottom: 30px; }
+      width: 90%;
+      font-size: 27px; }
     .section-contact__inputs :nth-child(3) {
-      font-size: 29px;
-      max-width: 90%;
-      max-height: 250px;
-      margin-bottom: 30px;
-      resize: none; }
+      width: 90%;
+      font-size: 27px; }
     .section-contact__inputs :nth-child(4) {
-      font-size: 29px;
-      width: 252px;
-      height: 60px;
-      margin: auto 9% auto auto; }
+      width: 90%;
+      font-size: 27px; }
   .section-contact__contacts {
     margin-top: 70px;
     display: flex; }
@@ -955,14 +948,20 @@ template {
     font-size: 35px; }
   .section-contact__h2 hr {
     width: 25%; }
-  .section-contact__inputs :nth-child(1) {
-    font-size: 27px; }
-  .section-contact__inputs :nth-child(2) {
-    font-size: 27px; }
-  .section-contact__inputs :nth-child(3) {
-    font-size: 27px; }
-  .section-contact__inputs :nth-child(4) {
-    font-size: 27px; }
+  .section-contact__inputs {
+    margin: 0 auto; }
+    .section-contact__inputs :nth-child(1) {
+      width: 90%;
+      font-size: 27px; }
+    .section-contact__inputs :nth-child(2) {
+      width: 90%;
+      font-size: 27px; }
+    .section-contact__inputs :nth-child(3) {
+      width: 90%;
+      font-size: 27px; }
+    .section-contact__inputs :nth-child(4) {
+      width: 90%;
+      font-size: 27px; }
   .section-contact__contacts {
     margin-top: 70px;
     display: flex; }
@@ -1078,6 +1077,20 @@ template {
       width: 210px; }
   .section-contact__h2 h2 {
     font-size: 34px; }
+  .section-contact__inputs {
+    margin: 0 auto; }
+    .section-contact__inputs :nth-child(1) {
+      width: 90%;
+      font-size: 27px; }
+    .section-contact__inputs :nth-child(2) {
+      width: 90%;
+      font-size: 27px; }
+    .section-contact__inputs :nth-child(3) {
+      width: 90%;
+      font-size: 27px; }
+    .section-contact__inputs :nth-child(4) {
+      width: 90%;
+      font-size: 27px; }
   .section-contact__mail {
     margin: 40px auto 0 auto; }
     .section-contact__mail__social-ico a img {
@@ -1346,24 +1359,19 @@ template {
     font-size: 30px; }
   .section-contact__inputs {
     margin: 0 auto;
-    width: 80%;
     text-align: center; }
     .section-contact__inputs :nth-child(1) {
       font-size: 21px;
-      min-width: 98.6%;
       text-align: center; }
     .section-contact__inputs :nth-child(2) {
       font-size: 21px;
-      min-width: 98.6%;
       text-align: center; }
     .section-contact__inputs :nth-child(3) {
       font-size: 21px;
-      min-width: 98%;
       text-align: center; }
     .section-contact__inputs :nth-child(4) {
       font-size: 21px;
-      min-width: 99%;
-      margin: 0 .5%;
+      margin: 0 auto;
       text-align: center; }
   .section-contact__mail {
     margin: 40px auto 0 auto; }
@@ -1574,7 +1582,6 @@ template {
       width: 110px;
       margin-top: 5px; }
     .section-contact__inputs {
-      width: 90%;
       margin: 0 auto;
       text-align: center; }
       .section-contact__inputs :nth-child(1) {
@@ -1739,8 +1746,7 @@ template {
       width: 110px;
       margin-top: 5px; }
     .section-contact__inputs {
-      margin: 0 auto;
-      width: 90%; }
+      margin: 0 auto; }
       .section-contact__inputs :nth-child(1) {
         font-size: 16px;
         text-align: center; }
@@ -1875,15 +1881,12 @@ template {
     margin-top: 5px; }
   .section-contact__inputs {
     text-align: center;
-    width: 90%;
     margin: 0 auto; }
     .section-contact__inputs :nth-child(1) {
       font-size: 15px;
-      min-width: 98.5%;
       text-align: center; }
     .section-contact__inputs :nth-child(2) {
       font-size: 15px;
-      min-width: 98.5%;
       text-align: center; }
     .section-contact__inputs :nth-child(3) {
       font-size: 15px;
