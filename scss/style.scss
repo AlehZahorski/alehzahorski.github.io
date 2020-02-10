@@ -191,7 +191,6 @@ $screen-320: 320px;
     }
     &-wrapper{
         &-tittle{
-            margin-top: 200px;
             text-align: center;
         }
         &-information{
@@ -3107,6 +3106,33 @@ $screen-320: 320px;
                 margin-top: 140px;
                 h1{
                     font-size: 55px;
+                }
+            }
+            &-information{
+                &-text{
+                    &__subtittle{
+                          h3{
+                              font-size: 35px;
+                          }
+                    }
+                }
+                &-photo{
+                    img{
+                        width: 430px;
+                        height: 430px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-height: 950px) and (min-width: 980px){
+    .section-header{
+        &-wrapper{
+            &-tittle{
+                margin-top: 180px;
+                h1{
+                    font-size: 65px;
                 }
             }
             &-information{

@@ -45,7 +45,7 @@ main {
 h1 {
   margin: 0.67em 0;
   color: #707070;
-  font-size: 63px; }
+  font-size: 83px; }
 
 h2 {
   margin: 0.67em 0;
@@ -452,7 +452,6 @@ template {
         opacity: 0;
         width: 0; }
   .section-header-wrapper-tittle {
-    margin-top: 200px;
     text-align: center; }
   .section-header-wrapper-information {
     display: inline-flex;
@@ -1994,6 +1993,17 @@ template {
     margin-top: 140px; }
     .section-header-wrapper-tittle h1 {
       font-size: 55px; }
+  .section-header-wrapper-information-text__subtittle h3 {
+    font-size: 35px; }
+  .section-header-wrapper-information-photo img {
+    width: 430px;
+    height: 430px; } }
+
+@media (min-height: 950px) and (min-width: 980px) {
+  .section-header-wrapper-tittle {
+    margin-top: 180px; }
+    .section-header-wrapper-tittle h1 {
+      font-size: 65px; }
   .section-header-wrapper-information-text__subtittle h3 {
     font-size: 35px; }
   .section-header-wrapper-information-photo img {
