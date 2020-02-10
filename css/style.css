@@ -1758,7 +1758,8 @@ template {
         text-align: center; }
       .section-contact__inputs :nth-child(4) {
         font-size: 16px;
-        text-align: center; }
+        text-align: center;
+        margin: 0 auto; }
     .section-contact__mail {
       margin: 40px auto 0 auto; }
       .section-contact__mail__social-ico a img {
@@ -1894,7 +1895,8 @@ template {
     .section-contact__inputs :nth-child(4) {
       font-size: 15px;
       margin: 0 0;
-      text-align: center; }
+      text-align: center;
+      margin: 0 auto; }
   .section-contact__mail {
     margin: 40px auto 0 auto; }
     .section-contact__mail__social-ico a img {
