@@ -16,6 +16,9 @@ html {
 /**
    * Remove the margin in all browsers.
    */
+button:hover {
+  background-color: #ffff95; }
+
 body {
   position: relative;
   margin: 0 auto;

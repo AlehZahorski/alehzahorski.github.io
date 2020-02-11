@@ -16,6 +16,9 @@ html {
 /**
    * Remove the margin in all browsers.
    */
+button:hover {
+  background-color: #ffff95; }
+
 body {
   position: relative;
   margin: 0 auto;
@@ -404,7 +407,7 @@ template {
 .section-header {
   color: #707070;
   font-family: 'News Cycle', sans-serif;
-  min-height: 100vh;
+  min-height: 85vh;
   width: 100%;
   position: relative;
   margin-top: 72px; }
