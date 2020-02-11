@@ -568,6 +568,9 @@ template {
       width: 290px;
       margin-left: 25px;
       margin-bottom: 30px; }
+      .section-project__allproject__choice img {
+        width: 290px;
+        height: 210px; }
   .section-project__textfirst p {
     margin: 20px auto 20px auto;
     text-align: center;
