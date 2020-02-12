@@ -44,13 +44,4 @@ anchors.forEach(function(item) {
 
 
 
-// animacja zdjecia sztucznego header
-anime({
-  targets: '#iamdev',
-  translateX: 10,
-  translateX: -10
-});
-// animacja zdjecia sztucznego header
-
-
 
