@@ -225,6 +225,11 @@ $screen-320: 320px;
                      width: 411px;
                      height: 76px;
                     }
+                    a{
+                        button:hover{
+                            filter: sepia(.7);
+                        }
+                    }
                 }
             }
         }
@@ -342,7 +347,7 @@ $screen-320: 320px;
         }  
     }
     &__allproject{
-        margin: 30px auto auto 15px;
+        margin: 30px auto auto auto;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -353,6 +358,11 @@ $screen-320: 320px;
             img{
                 width: 290px;
                 height: 210px;
+            }
+            img:hover{
+                transform: scale(1.1);
+                animation-delay: 2;
+                box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)
             }
         }
     }
@@ -368,6 +378,10 @@ $screen-320: 320px;
             text-align: center;
             font-size: 30px; 
             margin-bottom: 0;
+            img:hover{
+                transform: scale(1.1);
+                animation-delay: 2;
+            }
         }
         hr{
             width: 320px;
@@ -492,6 +506,9 @@ $screen-320: 320px;
                    width: 205px;
                    height: 43px;
                }
+               button:hover{
+                filter: sepia(.8);
+            }
            }
        }
     }
@@ -550,6 +567,10 @@ $screen-320: 320px;
             margin-bottom: 30px;
             border-radius: 0px;
         }
+        :nth-child(1):hover{
+            animation-delay: 2;
+            filter: sepia(.5);
+        }
         :nth-child(2){
             margin: 0 auto;
             font-size: 32px;
@@ -557,6 +578,10 @@ $screen-320: 320px;
             height:65px;
             margin-bottom: 30px;
             border-radius: 0px;
+        }
+        :nth-child(2):hover{
+            animation-delay: 2;
+            filter: sepia(.5);
         }
         :nth-child(3){
             margin: 0 auto;
@@ -566,12 +591,20 @@ $screen-320: 320px;
             height: 280px;
             margin-bottom: 30px;
             resize: none;
+        } 
+        :nth-child(3):hover{
+            animation-delay: 2;
+            filter: sepia(.5);
         }
         :nth-child(4){
             font-size: 32px;
             width: 90%;
             height: 65px;
             margin: 0 auto;
+        }
+        :nth-child(4):hover{
+            filter: sepia(1);
+            transform: scale(1.009);
         }
     }
     &__contacts{
@@ -594,6 +627,12 @@ $screen-320: 320px;
                 img{
                     height: 50px;
                     margin: auto 10px auto 10px;
+                    transition-property: transform; 
+                    transition-duration: 10ms;
+                    transition-delay: .01s;
+                }
+                img:hover{
+                    transform: scale(1.1);
                 }
             }
         }

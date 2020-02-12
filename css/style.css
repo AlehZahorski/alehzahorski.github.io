@@ -16,9 +16,6 @@ html {
 /**
    * Remove the margin in all browsers.
    */
-button:hover {
-  background-color: #ffff95; }
-
 body {
   position: relative;
   margin: 0 auto;
@@ -481,6 +478,8 @@ template {
           background-color: #fff;
           width: 411px;
           height: 76px; }
+        .section-header-wrapper-information-text__button a button:hover {
+          filter: sepia(0.7); }
 
 .section-stack {
   margin-top: 20px;
@@ -560,7 +559,7 @@ template {
       background-color: #707070;
       color: #707070; }
   .section-project__allproject {
-    margin: 30px auto auto 15px;
+    margin: 30px auto auto auto;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; }
@@ -571,6 +570,10 @@ template {
       .section-project__allproject__choice img {
         width: 290px;
         height: 210px; }
+      .section-project__allproject__choice img:hover {
+        transform: scale(1.1);
+        animation-delay: 2;
+        box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5); }
   .section-project__textfirst p {
     margin: 20px auto 20px auto;
     text-align: center;
@@ -579,6 +582,9 @@ template {
     text-align: center;
     font-size: 30px;
     margin-bottom: 0; }
+    .section-project__textsecond p img:hover {
+      transform: scale(1.1);
+      animation-delay: 2; }
   .section-project__textsecond hr {
     width: 320px; }
   .section-project__randomfunny p {
@@ -661,6 +667,8 @@ template {
       font-size: 25px;
       width: 205px;
       height: 43px; }
+    .section-about__about-me-second__subtitle p button:hover {
+      filter: sepia(0.8); }
   .section-about__about-me-three {
     display: flex; }
     .section-about__about-me-three__subtitle {
@@ -702,6 +710,9 @@ template {
       margin-top: 30px;
       margin-bottom: 30px;
       border-radius: 0px; }
+    .section-contact__inputs :nth-child(1):hover {
+      animation-delay: 2;
+      filter: sepia(0.5); }
     .section-contact__inputs :nth-child(2) {
       margin: 0 auto;
       font-size: 32px;
@@ -709,6 +720,9 @@ template {
       height: 65px;
       margin-bottom: 30px;
       border-radius: 0px; }
+    .section-contact__inputs :nth-child(2):hover {
+      animation-delay: 2;
+      filter: sepia(0.5); }
     .section-contact__inputs :nth-child(3) {
       margin: 0 auto;
       font-size: 32px;
@@ -717,11 +731,17 @@ template {
       height: 280px;
       margin-bottom: 30px;
       resize: none; }
+    .section-contact__inputs :nth-child(3):hover {
+      animation-delay: 2;
+      filter: sepia(0.5); }
     .section-contact__inputs :nth-child(4) {
       font-size: 32px;
       width: 90%;
       height: 65px;
       margin: 0 auto; }
+    .section-contact__inputs :nth-child(4):hover {
+      filter: sepia(1);
+      transform: scale(1.009); }
   .section-contact__contacts {
     margin-top: 70px;
     width: 90%;
@@ -736,7 +756,12 @@ template {
     margin-top: 20px; }
     .section-contact__mail__social-ico a img {
       height: 50px;
-      margin: auto 10px auto 10px; }
+      margin: auto 10px auto 10px;
+      transition-property: transform;
+      transition-duration: 10ms;
+      transition-delay: .01s; }
+    .section-contact__mail__social-ico a img:hover {
+      transform: scale(1.1); }
 
 @media (max-width: 970px) {
   .section-header-menu-list {
