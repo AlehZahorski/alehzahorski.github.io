@@ -8,6 +8,7 @@
     font-family: 'News Cycle', sans-serif;
 }
 // == /mixin ==
+
 // == variables ==
 
 $screen-970: 970px;
@@ -20,6 +21,33 @@ $screen-370: 370px;
 $screen-320: 320px;
 
 // == /variables ==
+
+// == animation ==
+@keyframes section-standart {
+    from { 
+      transform: scale(1) rotate(0);
+    }
+    to {
+      transform: scale(1.25) rotate(-20deg);
+    }
+  }
+@keyframes section-standart-reverse {
+    from { 
+      transform: scale(1) rotate(0);
+    }
+    to {
+      transform: scale(1.2) rotate(20deg);
+    }
+}
+@keyframes section-project {
+    from { 
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+// == /animation ==
 
 
 
@@ -359,10 +387,11 @@ $screen-320: 320px;
                 width: 290px;
                 height: 210px;
             }
+            img{
+                animation-duration: 1s; 
+            }
             img:hover{
-                transform: scale(1.1);
-                animation-delay: 2;
-                box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5)
+                animation-name: section-project;
             }
         }
     }
@@ -459,8 +488,20 @@ $screen-320: 320px;
             margin-left: 3.5%;
             margin-top: 30px;
         }
+        &__ico:nth-child(1){
+            animation-duration: 2s;
+        }
+        &__ico:nth-child(2){
+            animation-duration: 2s;
+        }
         &__ico:last-child{
             margin: 30px 0 auto auto;
+        }
+        &__ico:nth-child(1):hover{
+            animation-name: section-standart;
+        }
+        &__ico:nth-child(2):hover{
+            animation-name: section-standart-reverse;
         }
         
     }
