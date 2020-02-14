@@ -47,6 +47,17 @@ $screen-320: 320px;
       transform: scale(1.1);
     }
 }
+@keyframes section-nav {
+    from { 
+      transform: scale(1);
+      text-decoration: none;
+    }
+    to {
+      transform: scale(1.1);
+      color: black;
+      text-decoration: none;
+    }
+}
 // == /animation ==
 
 
@@ -185,9 +196,11 @@ $screen-320: 320px;
             text-decoration: none;
             color: #707070;
         }
+        a{
+            animation-duration: 1s; 
+        }
         a:hover{
-            text-decoration: none;
-            color: black;
+          animation-name: section-nav;
         }
         &-logo{
             font-size: 40px;
