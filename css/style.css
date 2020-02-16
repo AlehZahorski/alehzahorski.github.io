@@ -442,8 +442,7 @@ template {
     width: 100%; }
   .section-header__button {
     width: 100%;
-    position: fixed;
-    display: none; }
+    position: fixed; }
   .section-header-menu {
     min-width: 100%;
     display: inline-flex; }
