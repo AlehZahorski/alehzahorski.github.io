@@ -440,9 +440,6 @@ template {
     top: 0;
     background-color: white;
     width: 100%; }
-  .section-header__button {
-    width: 100%;
-    position: fixed; }
   .section-header-menu {
     min-width: 100%;
     display: inline-flex; }
