@@ -58,7 +58,7 @@ $screen-320: 320px;
       text-decoration: none;
     }
 }
-@-webkit-keyframes bounce {
+@keyframes bounce {
     from,
     20%,
     53%,
@@ -426,13 +426,7 @@ $screen-320: 320px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         &__choice{
-            width: 290px;
-            margin-left: 25px;
-            margin-bottom: 30px;
-            img{
-                width: 290px;
-                height: 210px;
-            }
+            margin: 50px auto; 
             img{
                 animation-duration: 1s; 
             }
@@ -809,17 +803,6 @@ $screen-320: 320px;
              font-size: 30px;
          }
      }
-     &__allproject{
-         margin: 35px 10px auto auto;
-         &__choice{
-           width: 250px;
-           a{
-               img{
-                   width: 230px;
-               }
-           }
-         }
-     }
      &__textfirst{
          p{
              font-size: 32px;
@@ -1066,19 +1049,6 @@ $screen-320: 320px;
         }
         hr{
             width: 30%;
-        }
-    }
-    &__allproject{
-        margin: 35px 10px auto auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        &__choice{
-          width: 350px;
-          a{
-              img{
-                  width: 320px;
-              }
-          }
         }
     }
     &__textfirst{
@@ -1353,16 +1323,6 @@ $screen-320: 320px;
                 width: 30%;
             }
         }
-        &__allproject{
-            &__choice{
-              width: 300px;
-              a{
-                  img{
-                      width: 280px;
-                  }
-              }
-            }
-        }
         &__textfirst{
             p{
                 font-size: 25px;
@@ -1619,17 +1579,7 @@ $screen-320: 320px;
         }
         &__allproject{
             display: grid;
-            grid-template-columns: 1fr;
-            &__choice{
-                margin: 0 auto; 
-              width: 450px;
-              a{
-                  img{
-                      width: 450px;
-                      margin-bottom: 10px;
-                  }
-              }
-            }
+            grid-template-columns: 1fr 1fr;
         }
         &__textfirst{
             p{
@@ -1882,16 +1832,6 @@ $screen-320: 320px;
             }
             hr{
                 width: 35%;
-            }
-        }
-        &__allproject{
-            &__choice{
-              width: 400px;
-              a{
-                  img{
-                      width: 410px;
-                  }
-              }
             }
         }
         &__textfirst{
@@ -2251,16 +2191,8 @@ $screen-320: 320px;
             }
         }
         &__allproject{
-            &__choice{
-              width: 300px;
-              margin: 0 auto;   
-              a{
-                  img{
-                      max-width: 310px;
-                      margin-bottom: 10px;
-                  }
-              }
-            }
+                display: grid;
+                grid-template-columns: 1fr;
         }
         &__textfirst{
             width: 90%;
@@ -2564,17 +2496,6 @@ $screen-320: 320px;
         &__promo{
             h2{
                 font-size: 25px;
-            }
-        }
-        &__allproject{
-            &__choice{
-              width: 270px;
-              margin: 0 auto;   
-              a{
-                  img{
-                      max-width: 270px;
-                  }
-              }
             }
         }
      }
@@ -2883,17 +2804,6 @@ $screen-320: 320px;
                 margin-right: 15px;
             }
            
-        }
-        &__allproject{
-            &__choice{
-              width: 240px;
-              margin: 0 auto;   
-              a{
-                  img{
-                      max-width: 240px;
-                  }
-              }
-            }
         }
      }
     // == /project ==

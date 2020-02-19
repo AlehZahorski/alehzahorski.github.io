@@ -350,7 +350,7 @@ template {
     color: black;
     text-decoration: none; } }
 
-@-webkit-keyframes bounce {
+@keyframes bounce {
   from,
   20%,
   53%,
@@ -617,12 +617,7 @@ template {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; }
     .section-project__allproject__choice {
-      width: 290px;
-      margin-left: 25px;
-      margin-bottom: 30px; }
-      .section-project__allproject__choice img {
-        width: 290px;
-        height: 210px; }
+      margin: 50px auto; }
       .section-project__allproject__choice img {
         animation-duration: 1s; }
       .section-project__allproject__choice img:hover {
@@ -851,12 +846,6 @@ template {
     font-size: 38px; }
   .section-project__promo a {
     font-size: 30px; }
-  .section-project__allproject {
-    margin: 35px 10px auto auto; }
-    .section-project__allproject__choice {
-      width: 250px; }
-      .section-project__allproject__choice a img {
-        width: 230px; }
   .section-project__textfirst p {
     font-size: 32px; }
   .section-project__textsecond p {
@@ -976,14 +965,6 @@ template {
     font-size: 26px; }
   .section-project__promo hr {
     width: 30%; }
-  .section-project__allproject {
-    margin: 35px 10px auto auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
-    .section-project__allproject__choice {
-      width: 350px; }
-      .section-project__allproject__choice a img {
-        width: 320px; }
   .section-project__textfirst {
     width: 90%;
     margin: 0 auto; }
@@ -1121,10 +1102,6 @@ template {
     font-size: 25px; }
   .section-project__promo hr {
     width: 30%; }
-  .section-project__allproject__choice {
-    width: 300px; }
-    .section-project__allproject__choice a img {
-      width: 280px; }
   .section-project__textfirst p {
     font-size: 25px; }
   .section-project__textsecond p {
@@ -1243,13 +1220,7 @@ template {
     width: 30%; }
   .section-project__allproject {
     display: grid;
-    grid-template-columns: 1fr; }
-    .section-project__allproject__choice {
-      margin: 0 auto;
-      width: 450px; }
-      .section-project__allproject__choice a img {
-        width: 450px;
-        margin-bottom: 10px; }
+    grid-template-columns: 1fr 1fr; }
   .section-project__textfirst p {
     font-size: 22px; }
   .section-project__textsecond p {
@@ -1369,10 +1340,6 @@ template {
     font-size: 21px; }
   .section-project__promo hr {
     width: 35%; }
-  .section-project__allproject__choice {
-    width: 400px; }
-    .section-project__allproject__choice a img {
-      width: 410px; }
   .section-project__textfirst p {
     font-size: 21px; }
   .section-project__textsecond p {
@@ -1590,12 +1557,9 @@ template {
     margin-top: 5px;
     margin-bottom: 10px;
     width: 40%; }
-  .section-project__allproject__choice {
-    width: 300px;
-    margin: 0 auto; }
-    .section-project__allproject__choice a img {
-      max-width: 310px;
-      margin-bottom: 10px; }
+  .section-project__allproject {
+    display: grid;
+    grid-template-columns: 1fr; }
   .section-project__textfirst {
     width: 90%;
     margin: 0 auto; }
@@ -1776,11 +1740,6 @@ template {
         width: 80px; }
   .section-project__promo h2 {
     font-size: 25px; }
-  .section-project__allproject__choice {
-    width: 270px;
-    margin: 0 auto; }
-    .section-project__allproject__choice a img {
-      max-width: 270px; }
   .section-standart {
     margin: auto 5px auto 5px; }
     .section-standart__tytle h2 {
@@ -1952,11 +1911,6 @@ template {
     font-size: 15px;
     margin-left: 15px;
     margin-right: 15px; }
-  .section-project__allproject__choice {
-    width: 240px;
-    margin: 0 auto; }
-    .section-project__allproject__choice a img {
-      max-width: 240px; }
   .section-standart__tytle hr {
     width: 230px; }
   .section-about__h2 h2 {
