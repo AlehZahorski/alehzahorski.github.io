@@ -375,6 +375,14 @@ template {
     -webkit-transform: translate3d(0, -2px, 0);
     transform: translate3d(0, -2px, 0); } }
 
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
 .menu {
   text-align: right;
   margin-top: 20px;
@@ -401,7 +409,8 @@ template {
 .menu__icon span:nth-child(1) {
   top: 0px; }
 
-.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
+.menu__icon span:nth-child(2),
+.menu__icon span:nth-child(3) {
   top: 10px; }
 
 .menu__icon span:nth-child(4) {
@@ -531,6 +540,9 @@ template {
           background-color: #fff;
           width: 411px;
           height: 76px; }
+        .section-header-wrapper-information-text__button a button {
+          cursor: pointer;
+          text-decoration: none; }
         .section-header-wrapper-information-text__button a button:hover {
           filter: sepia(0.7); }
 
@@ -723,6 +735,9 @@ template {
       font-size: 25px;
       width: 205px;
       height: 43px; }
+    .section-about__about-me-second__subtitle p button {
+      cursor: pointer;
+      text-decoration: none; }
     .section-about__about-me-second__subtitle p button:hover {
       filter: sepia(0.8); }
   .section-about__about-me-three {
@@ -758,6 +773,9 @@ template {
     flex-direction: column;
     width: 100%;
     margin: 0 auto; }
+    .section-contact__inputs button {
+      cursor: pointer;
+      text-decoration: none; }
     .section-contact__inputs :nth-child(1) {
       margin: 0 auto;
       font-size: 32px;
