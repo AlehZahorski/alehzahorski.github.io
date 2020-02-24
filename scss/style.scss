@@ -3797,6 +3797,36 @@ $screen-320: 320px;
         }
     }
 }
+@media (min-height: 900px) and (min-width: 1040px) {
+    .section-header {
+        &-wrapper {
+            &-tittle {
+                margin-top: 180px;
+
+                h1 {
+                    font-size: 55px;
+                }
+            }
+
+            &-information {
+                &-text {
+                    &__subtittle {
+                        h3 {
+                            font-size: 35px;
+                        }
+                    }
+                }
+
+                &-photo {
+                    img {
+                        width: 400px;
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 @media (min-height: 1266px) {
