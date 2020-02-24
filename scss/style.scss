@@ -196,6 +196,7 @@ $screen-320: 320px;
         top: 0;
         background-color: white;
         width: 100%;
+        z-index: 1000;
     }
 
     &-menu {
