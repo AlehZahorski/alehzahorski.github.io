@@ -588,7 +588,8 @@ template {
       animation-delay: 2; }
   .section-project__textsecond hr {
     width: 320px; }
-  .section-project__randomfunny p {
+  .section-project__randomfunny {
+    margin: 35px auto 35px auto;
     text-align: center;
     font-size: 30px; }
 
@@ -809,7 +810,7 @@ template {
     font-size: 32px; }
   .section-project__textsecond p {
     font-size: 32px; }
-  .section-project__randomfunny p {
+  .section-project__randomfunny {
     font-size: 32px; }
   .section-standart__tytle h2 {
     font-size: 38px; }
@@ -936,9 +937,8 @@ template {
       font-size: 27px; }
   .section-project__randomfunny {
     width: 90%;
-    margin: 0 auto; }
-    .section-project__randomfunny p {
-      font-size: 27px; }
+    margin: 0 auto;
+    font-size: 27px; }
   .section-standart__tytle h2 {
     font-size: 35px; }
   .section-standart__tytle hr {
