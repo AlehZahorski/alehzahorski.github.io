@@ -25,94 +25,49 @@ $screen-320: 320px;
 // == /variables ==
 
 // == animation ==
-@keyframes section-standart {
-    from {
-        transform: scale(1) rotate(0);
-    }
+// @keyframes section-standart {
+//     from {
+//         transform: scale(1) rotate(0);
+//     }
 
-    to {
-        transform: scale(1.25) rotate(-20deg);
-    }
-}
+//     to {
+//         transform: scale(1.25) rotate(-20deg);
+//     }
+// }
 
-@keyframes section-standart-reverse {
-    from {
-        transform: scale(1) rotate(0);
-    }
+// @keyframes section-standart-reverse {
+//     from {
+//         transform: scale(1) rotate(0);
+//     }
 
-    to {
-        transform: scale(1.2) rotate(20deg);
-    }
-}
+//     to {
+//         transform: scale(1.2) rotate(20deg);
+//     }
+// }
 
-@keyframes section-project {
-    from {
-        transform: scale(1);
-    }
+// @keyframes section-project {
+//     from {
+//         transform: scale(1);
+//     }
 
-    to {
-        transform: scale(1.1);
-    }
-}
+//     to {
+//         transform: scale(1.1);
+//     }
+// }
 
-@keyframes section-nav {
-    from {
-        transform: scale(1);
-        text-decoration: none;
-    }
+// @keyframes section-nav {
+//     from {
+//         transform: scale(1);
+//         text-decoration: none;
+//     }
 
-    to {
-        transform: scale(1.1);
-        color: black;
-        text-decoration: none;
-    }
-}
+//     to {
+//         transform: scale(1.1);
+//         color: black;
+//         text-decoration: none;
+//     }
+// }
 
-@keyframes bounce {
-
-    from,
-    20%,
-    53%,
-    80%,
-    to {
-        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-
-    40%,
-    43% {
-        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        -webkit-transform: translate3d(0, -10px, 0);
-        transform: translate3d(0, -10px, 0);
-    }
-
-    70% {
-        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-        -webkit-transform: translate3d(0, -15px, 0);
-        transform: translate3d(0, -15px, 0);
-    }
-
-    90% {
-        -webkit-transform: translate3d(0, -2px, 0);
-        transform: translate3d(0, -2px, 0);
-    }
-}
-
-@keyframes zoomIn {
-    from {
-        opacity: 0;
-        -webkit-transform: scale3d(0.3, 0.3, 0.3);
-        transform: scale3d(0.3, 0.3, 0.3);
-    }
-
-    50% {
-        opacity: 1;
-    }
-}
 
 // == /animation ==
 
@@ -3782,7 +3737,37 @@ $screen-320: 320px;
         }
     }
 }
-@media (min-height: 800px) and (min-width: 1280px) {
+@media (min-height: 780px) and (min-width: 1280px) {
+    .section-header {
+        &-wrapper {
+            &-tittle {
+                margin-top: 180px;
+
+                h1 {
+                    font-size: 55px;
+                }
+            }
+
+            &-information {
+                &-text {
+                    &__subtittle {
+                        h3 {
+                            font-size: 35px;
+                        }
+                    }
+                }
+
+                &-photo {
+                    img {
+                        width: 400px;
+                        height: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-height: 900px) and (min-width: 1440px) {
     .section-header {
         &-wrapper {
             &-tittle {
