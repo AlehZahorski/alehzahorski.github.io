@@ -2074,6 +2074,17 @@ template {
     width: 430px;
     height: 430px; } }
 
+@media (min-height: 800px) and (min-width: 1280px) {
+  .section-header-wrapper-tittle {
+    margin-top: 180px; }
+    .section-header-wrapper-tittle h1 {
+      font-size: 55px; }
+  .section-header-wrapper-information-text__subtittle h3 {
+    font-size: 35px; }
+  .section-header-wrapper-information-photo img {
+    width: 400px;
+    height: 400px; } }
+
 @media (min-height: 1266px) {
   .section-header-wrapper-information-text__subtittle h3 {
     font-size: 44px; }
