@@ -1065,7 +1065,7 @@ template {
     font-size: 25px; }
   .section-project__textsecond p {
     font-size: 25px; }
-  .section-project__randomfunny p {
+  .section-project__randomfunny {
     font-size: 25px; }
   .section-standart__tytle {
     margin-top: 50px; }
@@ -1186,7 +1186,7 @@ template {
     font-size: 23px; }
   .section-project__textsecond img {
     width: 40px; }
-  .section-project__randomfunny p {
+  .section-project__randomfunny {
     font-size: 22px; }
   .section-standart__tytle h2 {
     font-size: 32px; }
@@ -1305,7 +1305,7 @@ template {
     font-size: 21px; }
   .section-project__textsecond img {
     width: 36px; }
-  .section-project__randomfunny p {
+  .section-project__randomfunny {
     font-size: 21px; }
   .section-standart__tytle h2 {
     margin-bottom: 10px;
@@ -1536,9 +1536,8 @@ template {
       width: 36px; }
   .section-project__randomfunny {
     width: 90%;
-    margin: 0 auto; }
-    .section-project__randomfunny p {
-      font-size: 19px; }
+    margin: 0 auto;
+    font-size: 19px; }
   .section-standart__tytle h2 {
     margin-bottom: 10px;
     font-size: 20px; }
