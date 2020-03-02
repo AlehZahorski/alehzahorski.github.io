@@ -410,7 +410,11 @@ template {
   position: relative;
   margin-top: 72px; }
   .section-header_change-language img {
-    width: 20px; }
+    width: 20px;
+    opacity: .9; }
+  .section-header_change-language img:hover {
+    opacity: 1;
+    cursor: pointer; }
   .section-header_sticky-menu {
     position: fixed;
     top: 0;
@@ -420,6 +424,8 @@ template {
   .section-header-menu {
     min-width: 100%;
     display: inline-flex; }
+    .section-header-menu-mob {
+      display: none; }
     .section-header-menu button {
       margin: 10px 10px auto auto;
       padding-left: 15px;

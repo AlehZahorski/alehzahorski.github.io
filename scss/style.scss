@@ -193,6 +193,11 @@ $screen-320: 320px;
     &_change-language{
         img{
             width: 20px;
+            opacity: .9;
+        }
+        img:hover{
+            opacity: 1;
+            cursor: pointer;
         }
     }
     &_sticky-menu {
@@ -206,7 +211,9 @@ $screen-320: 320px;
     &-menu {
         min-width: 100%;
         display: inline-flex;
-
+        &-mob{
+            display: none;
+        }
         button {
             margin: 10px 10px auto auto;
             padding-left: 15px;
@@ -1447,7 +1454,6 @@ $screen-320: 320px;
             &-list {
                 display: none;
             }
-
             &__burger-menu {
                 margin: 15px 10px auto 5px;
 

@@ -107,8 +107,7 @@ var arrLang = new Array();
       arrLang['ru']['section_4_5'] = "Беларусь";
       
    
-  
-      // Process translation
+  //jquery
       $(function() {
         $('.translate').click(function() {
           var lang = $(this).attr('id');
