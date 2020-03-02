@@ -6,7 +6,7 @@
 }
 
 @mixin NewsCycle {
-    font-family: 'News Cycle', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 // == /mixin ==
@@ -190,13 +190,17 @@ $screen-320: 320px;
     width: 100%;
     position: relative;
     margin-top: 72px;
-
+    &_change-language{
+        img{
+            width: 20px;
+        }
+    }
     &_sticky-menu {
         position: fixed;
         top: 0;
         background-color: white;
         width: 100%;
-        z-index: 1000;
+        z-index: 999;
     }
 
     &-menu {
@@ -221,9 +225,12 @@ $screen-320: 320px;
 
         a:hover {
             animation-name: section-nav;
+            text-decoration: none;
         }
 
         &-logo {
+            display: flex;
+            flex-direction: row-reverse;
             font-size: 40px;
             font-weight: bold;
             margin: auto auto auto 10px;

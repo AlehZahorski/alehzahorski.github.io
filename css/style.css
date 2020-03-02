@@ -366,7 +366,7 @@ template {
   text-transform: uppercase;
   text-decoration: none; }
   .menu__links-item a {
-    font-family: 'News Cycle', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: #707070; }
   .menu__links-item a:hover {
@@ -404,17 +404,19 @@ template {
 
 .section-header {
   color: #707070;
-  font-family: 'News Cycle', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 85vh;
   width: 100%;
   position: relative;
   margin-top: 72px; }
+  .section-header_change-language img {
+    width: 20px; }
   .section-header_sticky-menu {
     position: fixed;
     top: 0;
     background-color: white;
     width: 100%;
-    z-index: 1000; }
+    z-index: 999; }
   .section-header-menu {
     min-width: 100%;
     display: inline-flex; }
@@ -429,8 +431,11 @@ template {
     .section-header-menu a {
       animation-duration: 1s; }
     .section-header-menu a:hover {
-      animation-name: section-nav; }
+      animation-name: section-nav;
+      text-decoration: none; }
     .section-header-menu-logo {
+      display: flex;
+      flex-direction: row-reverse;
       font-size: 40px;
       font-weight: bold;
       margin: auto auto auto 10px;
@@ -490,7 +495,7 @@ template {
 .section-stack {
   margin-top: 20px;
   color: #707070;
-  font-family: 'News Cycle', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 100%;
   margin-bottom: 50px; }
   .section-stack-h2 h2 {
@@ -541,7 +546,7 @@ template {
 
 .section-project {
   color: #707070;
-  font-family: 'News Cycle', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 100%;
   margin-bottom: 50px; }
   .section-project__promo {
@@ -595,7 +600,7 @@ template {
 
 .section-standart {
   color: #707070;
-  font-family: 'News Cycle', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 100%; }
   .section-standart__tytle h2 {
     text-align: center;
@@ -652,7 +657,7 @@ template {
 
 .section-about {
   color: #707070;
-  font-family: 'News Cycle', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -699,7 +704,7 @@ template {
 
 .section-contact {
   color: #707070;
-  font-family: 'News Cycle', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   height: 100%; }
   .section-contact__h2 h2 {
     margin-top: 72px;
