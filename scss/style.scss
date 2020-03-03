@@ -191,6 +191,8 @@ $screen-320: 320px;
     position: relative;
     margin-top: 72px;
     &_change-language{
+        position: fixed;
+        margin-top: 50px;
         img{
             width: 20px;
             opacity: .9;
@@ -2293,6 +2295,9 @@ $screen-320: 320px;
     // == /about ==
 
     // == contact ==
+    .pre_section_5{
+        margin-bottom: 150px;
+    }
     .section-contact {
         &__h2 {
             h2 {
@@ -2556,6 +2561,7 @@ $screen-320: 320px;
     // == project ==
     .section-project {
         &__promo {
+           
             h2 {
                 font-size: 25px;
             }
@@ -2563,6 +2569,7 @@ $screen-320: 320px;
             a {
                 font-size: 15px;
                 font-weight: 600;
+                margin: 0 auto;
             }
 
             hr {
@@ -2716,6 +2723,9 @@ $screen-320: 320px;
     // == /about ==
 
     // == contact ==
+    .pre_section_5{
+        margin-bottom: 150px;
+    }
     .section-contact {
         margin: 0 auto;
 
@@ -2933,6 +2943,13 @@ $screen-320: 320px;
     // == project ==
     .section-project {
         &__promo {
+            a{
+                span{
+                    margin: 0 auto;  
+                    text-align: center;  
+                }
+                margin: 0 auto;
+            }
             h2 {
                 font-size: 25px;
             }
@@ -3052,6 +3069,9 @@ $screen-320: 320px;
     // == /about ==
 
     // == contact ==
+    .pre_section_5{
+        margin-bottom: 150px;
+    }
     .section-contact {
         width: 90%;
         margin: 0 auto;
@@ -3299,8 +3319,6 @@ $screen-320: 320px;
 
             a {
                 font-size: 15px;
-                margin-left: 15px;
-                margin-right: 15px;
             }
 
         }
@@ -3345,6 +3363,9 @@ $screen-320: 320px;
     // == /about ==
 
     // == contact ==
+    .pre_section_5{
+        margin-bottom: 150px;
+    }
     .section-contact {
         &__h2 {
             h2 {

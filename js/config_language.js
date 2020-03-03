@@ -1,4 +1,4 @@
-var arrLang = new Array();
+const arrLang = new Array();
       arrLang['en'] = new Array();
       arrLang['pl'] = new Array();
       arrLang['ru'] = new Array();
@@ -110,7 +110,7 @@ var arrLang = new Array();
   //jquery
       $(function() {
         $('.translate').click(function() {
-          var lang = $(this).attr('id');
+          const lang = $(this).attr('id');
   
           $('.lang').each(function(index, item) {
             $(this).text(arrLang[lang][$(this).attr('key')]);

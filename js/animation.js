@@ -9,24 +9,34 @@
 //animacja przycisku
 
 //якоря
-const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-      animationTime = 500,
-      framesCount = 20;
-anchors.forEach(function(item) {
-  item.addEventListener('click', function(e) {
-    e.preventDefault();
-    let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top + window.pageYOffset;
-    let scroller = setInterval(function() {
-      let scrollBy = coordY / framesCount;
-      if(scrollBy > window.pageYOffset - coordY && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
-        window.scrollBy(0, scrollBy);
-      } else {
-        window.scrollTo(0, coordY);
-        clearInterval(scroller);
+$('a[href*="#"]')
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { 
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); 
+            $target.focus(); 
+          };
+        });
       }
-    }, animationTime / framesCount);
+    }
   });
-});
 
 
 //losowanie ciekawostek
@@ -45,7 +55,6 @@ var answers = [
 "Przeciętny wysportowany człowiek przechodzi w swoim życiu dystans równy pięciu pokrążeniom ziemi.",
 "„Dollar Babies” to inicjatywa wymyślona przez Stephena Kinga, żeby wspierać początkujących filmowców. Autor udziela takim osobom prawa do adaptacji jednej ze swoich książek za symbolicznego dolara. Zastrzeżenie jest jednak aby filmy nie były szeroko rozpowszechniane, oprócz festiwali filmowych – tak, żeby twórca mógł zostać dostrzeżony przez krytyków.",
 "Aby wypić całą krew z organizmu człowieka potrzeba by około miliona komarów."
-
 ];
 
 $(function () {
