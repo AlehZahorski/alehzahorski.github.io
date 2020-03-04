@@ -192,7 +192,9 @@ $screen-320: 320px;
     margin-top: 72px;
     &_change-language{
         position: fixed;
+        border-bottom: 1px solid black;
         margin-left: 80px;
+        margin-top: -5px;
         img{
             width: 20px;
             opacity: .9;
