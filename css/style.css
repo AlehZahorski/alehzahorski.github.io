@@ -409,12 +409,15 @@ template {
   width: 100%;
   position: relative;
   margin-top: 72px; }
-  .section-header_change-language img {
-    width: 20px;
-    opacity: .9; }
-  .section-header_change-language img:hover {
-    opacity: 1;
-    cursor: pointer; }
+  .section-header_change-language {
+    position: fixed;
+    margin-left: 80px; }
+    .section-header_change-language img {
+      width: 20px;
+      opacity: .9; }
+    .section-header_change-language img:hover {
+      opacity: 1;
+      cursor: pointer; }
   .section-header_sticky-menu {
     position: fixed;
     top: 0;
@@ -1307,7 +1310,8 @@ template {
   .section-project__promo h2 {
     font-size: 25px; }
   .section-project__promo a {
-    font-size: 21px; }
+    font-size: 21px;
+    margin: 0 auto; }
   .section-project__promo hr {
     width: 35%; }
   .section-project__textfirst p {
@@ -1518,15 +1522,18 @@ template {
   .section-stack-technologies:nth-child(4) {
     display: flex;
     flex-direction: column-reverse; }
-  .section-project__promo h2 {
-    font-size: 25px; }
-  .section-project__promo a {
-    font-size: 15px;
-    font-weight: 600; }
-  .section-project__promo hr {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    width: 40%; }
+  .section-project__promo {
+    margin: 0 auto; }
+    .section-project__promo h2 {
+      font-size: 25px; }
+    .section-project__promo a {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0 auto; }
+    .section-project__promo hr {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 40%; }
   .section-project__allproject {
     display: grid;
     grid-template-columns: 1fr; }
