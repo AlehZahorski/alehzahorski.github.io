@@ -21,7 +21,7 @@ arrLang['pl']['section_2_i-hope'] = "Mam nadzeje że do tej pory wszystko Ci si�
 arrLang['pl']['section_2_interesting-fact'] = "Losowa ciekawostka:";
 arrLang['pl']['section_2.1'] = "STANDARDY WEB'a";
 arrLang['pl']['section_2.1_first-text'] = " Semantyka w HTML. Nie wszyscy dostrzegają zasad SEO, i to jest poważny problem. Bez SEO twoją strona będzie mniej widoczna dla wyszukiwarek, a przy wyszukiwaniu w google będzie widoczna losowa strona, a nie to co chiałbyś pokazać. Tak że przestrzegajmy zasad!";
-arrLang['pl']['section_2.1_second-text'] = " Drugim bardzo ważnym elementa budowania strony jest RESPONSIVE, czyli uzyskiwanie w CSS efektu jaki chcemy uzyskać, a nie takiego jak nam wyjdzie. Dobrze zaprojektowana strona będzie dobrze się wyświetlała na wszystkich rozdzielczościach.";
+arrLang['pl']['section_2.1_second-text'] = " Drugim bardzo ważnym elementem budowania strony jest RESPONSIVE, czyli uzyskiwanie w CSS efektu jaki chcemy uzyskać, a nie takiego jak nam wyjdzie. Dobrze zaprojektowana strona będzie dobrze się wyświetlała na wszystkich rozdzielczościach.";
 arrLang['pl']['section_2.1_three-text'] = "Trzecią ważna rzeczą jest INTUITUVE, wynika z niego strona ma być zaprojektowana w taki sposób, aby użytkownik nie miał problemu z dostępnością do informacji, to już jest UX/UI designe. Im lepej zaprojektowana strona, tym jest przyjemniej i łatwiej z niej korzystać.";
 arrLang['pl']['section_3'] = "O mnie";
 arrLang['pl']['section_3_first-text'] = "Dobra, teraz opowiem trochę o sobie. Nazywam się Aleh. Zajmuje się tworzeniem aplikacji webowych, w tym równiez stron internetowych. Uważam że najważniejsze to wykonywać swoją prace dobrze. Nie ważnie ile masz czasu, wszystko ma być robione z pasją i pełnym zangażowaniem.";
@@ -34,7 +34,7 @@ arrLang['pl']['section_4_1'] = "Wyślij";
 arrLang['pl']['section_4_2'] = "Telefon kontaktowy:";
 arrLang['pl']['section_4_3'] = "Poczta";
 arrLang['pl']['section_4_4'] = "Polska";
-arrLang['pl']['section_4_5'] = "Bialorus/Viber";
+arrLang['pl']['section_4_5'] = "Belarus/Viber";
       
 
 
