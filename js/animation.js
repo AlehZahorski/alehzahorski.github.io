@@ -6,6 +6,14 @@
       });
     });
   })(jQuery); 
+  (function($){
+    $(function() {
+      $('.menu__links-item').on('click', function() {
+        $(this).closest('.menu').toggleClass('menu_state_open');
+      });
+    });
+  })(jQuery); 
+  
 //animacja przycisku
 
 //якоря
@@ -78,6 +86,10 @@ function showText(){
 }
 showText();
 
+
+window.addEventListener('scroll', function(){
+  console.log('loooooo leciiiiiimy');
+})
 
 
 

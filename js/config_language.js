@@ -1,3 +1,4 @@
+
 const arrLang = new Array();
       arrLang['en'] = new Array();
       arrLang['pl'] = new Array();
