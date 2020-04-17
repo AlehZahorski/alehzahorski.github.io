@@ -521,7 +521,7 @@ template {
   .section-stack-start {
     min-width: 100%;
     display: inline-flex;
-    font-size: 36px; }
+    font-size: 32px; }
     .section-stack-start-text {
       margin: auto auto 25px 10px; }
       .section-stack-start-text hr {
