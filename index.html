@@ -13,11 +13,13 @@
     <script type="text/javascript" src="/js/animation.js" defer></script>
     <script type="text/javascript" src="./js/wow.min.js"></script>
     <script type="text/javascript" src="./js/config_language.js" defer></script>
+    <script type="text/javascript" src="./js/main.js" defer></script>
     <script>
           new WOW().init();
     </script>
     <meta name="description" content="Czesc. Z tej strony Aleh, jestem ux/ui architektorem oraz ucze sie frontendu. Wpadnij na ta stone jezeli chcesz poznac mnie albo wspolpracowac ze mna.">
     <meta name="keywords" content="Frontend-developer.">
+
 </head>
 <body>
     <!-- HEADER-->
@@ -216,7 +218,7 @@
                 </p>
                 <p >
                     <span class="lang" key="section_3_three-text"> Na wszelki wypadek dołączam również swoje CV. </span>
-                    <a  href="aleh_zahorskiCV.pdf" target="_blanck" onmouseover="console.log('co tu sie dzieje???')"><button class="lang" key="section_3_button"> Pobrać CV</button></a> 
+                    <button id="myCv" class="lang" key="section_3_button"> Pobrać CV</button>
                 </p>
             </div>
             <div class="section-about__about-me-three">
@@ -275,6 +277,21 @@
             </footer>
     </section>
     <!-- /CONTACT-->
+
+    <!-- PASSWORD's WINDOW-->
+    <div class="section-password" id="window-password">
+    <form action="" class="form-class">
+        <label for="">Enter password</label>
+        <input type="text" id="idPass">
+        <button id="pushPassword">push</button>
+        <div id="forText"></div>
+    </form>
+    <a class="noneButton" id="idCV" href="aleh_zahorskiCV.pdf" target="_blanck"><button class="lang" key="section_3_button"> Pobrać CV</button></a> 
+    </div>
+    <!-- /PASSWORD's WINDOW-->
+
+
+
     <!-- SECTION TROLLFACE-->
     <!--
     ░░░░░░░░░░░░▄▀▀▀▀▀▀▀▀▄
@@ -292,5 +309,7 @@
     ░░░░░░░░░▀▀▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀
   -->
      <!-- SECTION TROLLFACE-->
+
+
 </body>
 </html>
