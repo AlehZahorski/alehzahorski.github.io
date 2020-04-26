@@ -280,13 +280,18 @@
 
     <!-- PASSWORD's WINDOW-->
     <div class="section-password" id="window-password">
+        <img id="imgCloseWindow" src="./img/close.png" alt="close window">
     <form action="" class="form-class">
-        <label for="">Enter password</label>
-        <input type="text" id="idPass">
-        <button id="pushPassword">push</button>
-        <div id="forText"></div>
+        <label for=""> <span> Zeby pobrac CV wpisz haslo i zaakceptuj.</span></label>
+        <div class="form-class-row">
+        <input type="text" id="idPass" maxlength="10" autocomplete="off">
+        <button  id="pushPassword">zaakceptuj</button>
+        </div>
+        <div id="forText" class="fontText"></div>
     </form>
-    <a class="noneButton" id="idCV" href="aleh_zahorskiCV.pdf" target="_blanck"><button class="lang" key="section_3_button"> Pobrać CV</button></a> 
+    <div class="button-cv">
+        <a class="noneButton" id="idCV"  target="_blanck"><button class="lang Form-button" key="section_3_button"> Pobrać CV</button></a> 
+    </div>
     </div>
     <!-- /PASSWORD's WINDOW-->
 

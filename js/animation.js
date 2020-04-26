@@ -1,3 +1,9 @@
+const btnPL = document.getElementById('pl');
+const btnEN = document.getElementById('en');
+const btnRU = document.getElementById('ru');
+
+
+
 //animacja przycisku
 (function($){
     $(function() {
@@ -73,12 +79,13 @@ showText(this, answers[i]);
 function showText(panel, text) {
 var panel = $(panel);
 var msg = $('.message', panel);
-panel.fadeOut(500, function () {
+panel.fadeOut(20000, function () {
 msg.html(text);
-panel.fadeIn(500);
+panel.fadeIn(20000);
 });
 }
 });
+
 function showText(){
   i = Math.floor(Math.random() * answers.length);
   message.innerHTML = answers[i];
@@ -86,10 +93,6 @@ function showText(){
 }
 showText();
 
-
-window.addEventListener('scroll', function(){
-  console.log('loooooo leciiiiiimy');
-})
 
 
 
