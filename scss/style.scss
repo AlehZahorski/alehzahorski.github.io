@@ -859,13 +859,15 @@ $screen-320: 320px;
        width: 65px;
    }
 }
+.displayNoneForAll{
+    display: none;
+}
 .fontText{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-size: 32px;
 }
 .form-class{
-    margin-top: 17%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -888,6 +890,9 @@ $screen-320: 320px;
         width: 180px;
         cursor: pointer;
     }
+}
+.forMargin{
+    margin-top: 17%;
 }
 .form-class-row{
     display: flex;
@@ -926,11 +931,13 @@ $screen-320: 320px;
             width: 45px;
         }
      }
+     .forMargin{
+        margin-top: 20%;
+    }
      .fontText{
          font-size: 22px;
      }
      .form-class{
-         margin-top: 25%;
          display: flex;
          flex-direction: column;
          text-align: center;

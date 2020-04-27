@@ -5,13 +5,26 @@ const pushPassword = document.getElementById('pushPassword');
 const div = document.getElementById('forText');
 const idCV = document.getElementById('idCV');
 const imgCloseWin = document.getElementById('imgCloseWindow');
+const formCloseWin = document.getElementById('formCloseWin');
+const labelCloseWin = document.getElementById('labelCloseWin');
+
+
 
 let passwordTrue = 2^3+(10*190+16);
 
+
+
 const downloadCv = () => {
-// console.log('jest ok');
+
 windowPass.classList.toggle('showWindowWithPass');
-// console.log('klasa zostala dodana');
+imgCloseWin.classList.remove('displayNoneForAll');
+formCloseWin.classList.remove('displayNoneForAll');
+labelCloseWin.classList.remove('displayNoneForAll');
+input.classList.remove('displayNoneForAll');
+pushPassword.classList.remove('displayNoneForAll');
+div.classList.remove('displayNoneForAll');
+div.classList.add('fontText');
+
 pushPassword.addEventListener('click', function(e){
     e.preventDefault();
     if(input.value == passwordTrue){
@@ -21,18 +34,23 @@ pushPassword.addEventListener('click', function(e){
     } else{
         div.textContent = `haslo "${input.value}" nie jest prawidlowe`;
         idCV.classList.remove('showButton');
-    }
-    
-    
+    }   
 })
-
 }
 
 
 btn.addEventListener('click', downloadCv);
 imgCloseWin.addEventListener('click', function(){
+
     windowPass.classList.toggle('showWindowWithPass');
     idCV.classList.remove('showButton');
+    imgCloseWin.classList.add('displayNoneForAll');
+    formCloseWin.classList.add('displayNoneForAll');
+    labelCloseWin.classList.add('displayNoneForAll');
+    input.classList.add('displayNoneForAll');
+    pushPassword.classList.add('displayNoneForAll');
+    div.classList.add('displayNoneForAll');
+
     input.value = '';
     div.textContent = '';
 })
