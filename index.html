@@ -14,6 +14,7 @@
     <script type="text/javascript" src="./js/wow.min.js"></script>
     <script type="text/javascript" src="./js/config_language.js" defer></script>
     <script type="text/javascript" src="./js/main.js" defer></script>
+    <script type="text/javascript" src="./script.js" defer></script>
     <script>
           new WOW().init();
     </script>
@@ -244,14 +245,16 @@
                 </h2>
                 <hr>
             </div>
-            <div class="section-contact__inputs">
-           
-                <input class="wow rubberBand" aria-label="Wpisz swoje imie" placeholder="Wpisz swoje imie" type="text" >
-                <input class="wow rubberBand" aria-label="Wpisz swoj mail" placeholder="examle@gmail.com" type="text" >
-                <textarea class="wow rubberBand" aria-label="tu trzeba umiescic text z ktorym chcesz zwrocic sie do mnie" placeholder="Wpisz tresc wiadomości.." type="text"></textarea>
-                <button class="wow zoomIn"> <span class="lang" key="section_4_1"> Wyślij </span></button>
-           
-            </div>
+
+
+            <form class="section-contact__inputs">
+                <input required name="user_name" class="wow rubberBand" aria-label="Wpisz swoje imie" placeholder="Wpisz swoje imie" type="text" >
+                <input required name="user_mail" class="wow rubberBand" aria-label="Wpisz swoj mail" placeholder="examle@gmail.com" type="email" >
+                <textarea name="user_message" class="wow rubberBand" aria-label="tu trzeba umiescic text z ktorym chcesz zwrocic sie do mnie" placeholder="Wpisz tresc wiadomości.." type="text"></textarea>
+                <button id="btnMail" type="submit" class="wow zoomIn"> <span class="lang" key="section_4_1"> Wyślij </span></button>
+            </form>
+
+
             <footer class="section-contact__contacts">
                 <div class="section-contact__mail">
                     <div class="section-contact__mail__social-ico">
