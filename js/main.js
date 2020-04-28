@@ -25,6 +25,8 @@ pushPassword.classList.remove('displayNoneForAll');
 div.classList.remove('displayNoneForAll');
 div.classList.add('fontText');
 
+
+
 pushPassword.addEventListener('click', function(e){
     e.preventDefault();
     if(input.value == passwordTrue){
@@ -54,13 +56,45 @@ imgCloseWin.addEventListener('click', function(){
     input.value = '';
     div.textContent = '';
 })
+// finish password's window
 
-//1) нужно создать окно которое будет находится по середине странице в любом случае в позиции фиксед
-// 2)Нужно скрыть это окно в обычном режиме
-// 3)добавлять дисплей шоу при клике кнопки
-// 4)в этом окне должно быть поле ввода пароля и кнопка
-// 5)введенные данные должны сопоставляться с паролем в базе данных 
-// 6)если все ок - открывает ссылку на пдф файл
-// 7)если нет - посылает нахуй
+// 1)создать див которая в котором будет класс скрывающий его в нативном режиме ГОТОВО
+// 2)добавить стили как в примере с паролем
+// 3)добавить ссылки на страницы(убрать их же с хтмл)
+// 4)добавить описание для каждой ссылки и возможность открыть гитхаб(код) 
+// или страницу в онлайн режиме
+// 5)добавить анимацию в окошко открывающееся
 
+const btnProject1 = document.getElementById('btn-project1');
+const btnProject2 = document.getElementById('btn-project2');
+const btnProject3 = document.getElementById('btn-project3');
+const projectDisplayImage = document.getElementById('projectDisplayImage');
+const closeWindowProject = document.getElementById('closeWindowProject');
+
+const projectWindow = document.getElementById('projectWindow');
+
+const firstButton = document.getElementById('firstButton');
+const secondButton = document.getElementById('secondButton');
+const descriptionProject = document.getElementById('descriptionProject');
+const firstProjectImage = document.getElementById('firstProjectImage');
+
+
+const clickForOpenWindow1 = () =>{
+    projectWindow.classList.remove('displayNoneProject');
+    firstProjectImage.classList.remove('displayNoneProject');
+    descriptionProject.textContent = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
+    firstButton.href = "https://alehzahorski.github.io/your-weather/";
+    secondButton.href = "https://github.com/AlehZahorski/your-weather";
+
+
+}
+
+
+closeWindowProject.addEventListener('click', function(){
+    projectWindow.classList.add('displayNoneProject');
+})
+
+btnProject1.addEventListener('click', clickForOpenWindow1);
+// btnProject2.addEventListener('click', clickForOpenWindow);
+// btnProject3.addEventListener('click', clickForOpenWindow);
 

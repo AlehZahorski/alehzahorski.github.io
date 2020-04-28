@@ -24,52 +24,7 @@ $screen-320: 320px;
 
 // == /variables ==
 
-// == animation ==
-// @keyframes section-standart {
-//     from {
-//         transform: scale(1) rotate(0);
-//     }
 
-//     to {
-//         transform: scale(1.25) rotate(-20deg);
-//     }
-// }
-
-// @keyframes section-standart-reverse {
-//     from {
-//         transform: scale(1) rotate(0);
-//     }
-
-//     to {
-//         transform: scale(1.2) rotate(20deg);
-//     }
-// }
-
-// @keyframes section-project {
-//     from {
-//         transform: scale(1);
-//     }
-
-//     to {
-//         transform: scale(1.1);
-//     }
-// }
-
-// @keyframes section-nav {
-//     from {
-//         transform: scale(1);
-//         text-decoration: none;
-//     }
-
-//     to {
-//         transform: scale(1.1);
-//         color: black;
-//         text-decoration: none;
-//     }
-// }
-
-
-// == /animation ==
 
 
 
@@ -444,7 +399,7 @@ $screen-320: 320px;
     margin-bottom: 50px;
 
     &__promo {
-        a {
+        span {
             text-decoration: none;
             color: #707070;
             margin-left: 30px;
@@ -484,6 +439,7 @@ $screen-320: 320px;
 
             img {
                 animation-duration: 1s;
+                cursor: pointer;
             }
 
             img:hover {
@@ -837,6 +793,10 @@ $screen-320: 320px;
 
 
 // == password ==
+// == password ==
+// == password ==
+// == password ==
+// == password ==
 .showWindowWithPass{
    display: block;
    left: 50%;
@@ -919,7 +879,6 @@ $screen-320: 320px;
 }
 
 
-
 @media (max-width: 780px){
     .showWindowWithPass{
         width: 300px;
@@ -981,9 +940,94 @@ $screen-320: 320px;
          justify-content: center;
      }
 }
-
-
 // == /password ==
+// == /password ==
+// == /password ==
+// == /password ==
+// == /password ==
+// == /password ==
+
+
+
+
+// == project-windiw ==
+// == project-windiw ==
+// == project-windiw ==
+// == project-windiw ==
+// == project-windiw ==
+.showAllProjectsObjects{
+    display: block;
+}
+.displayNoneProject{
+    display: none;
+}
+.project-window{
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    width: 876px;
+    height: 580px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:#FFE746;
+    z-index: 1000;
+    &-close{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+    &-close:hover{
+        width: 65px;
+    }
+
+    &-description{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        &-stack{
+            margin-left: 50px;
+            font-size: 20px;
+            p{
+                font-size: 25px;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+        }
+        &-desc{
+            margin-left: 20px;
+            margin-right: 10px;
+            margin-top: 10px;
+            &-text{
+                font-size: 30px;
+            }
+            &-buttons{
+                position: absolute;
+                right: 20px;
+                bottom: 90px;
+                &-firstButton{
+                    cursor: pointer;
+                    width: 200px;
+                    height: 50px;
+                }
+                &-secondButton{
+                    cursor: pointer;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+// == /project-windiw ==
+// == /project-windiw ==
+// == /project-windiw ==
+// == /project-windiw ==
+// == /project-windiw ==
 
 // =====================================================================================================
 // =====================================================================================================
@@ -1074,7 +1118,7 @@ $screen-320: 320px;
                 font-size: 38px;
             }
 
-            a {
+            span {
                 font-size: 30px;
             }
         }
@@ -1365,7 +1409,7 @@ $screen-320: 320px;
                 font-size: 35px;
             }
 
-            a {
+            span {
                 font-size: 26px;
             }
 
@@ -1684,7 +1728,7 @@ $screen-320: 320px;
                 font-size: 34px;
             }
 
-            a {
+            span {
                 font-size: 25px;
             }
 
@@ -1986,7 +2030,7 @@ $screen-320: 320px;
                 font-size: 32px;
             }
 
-            a {
+            span {
                 font-size: 22px;
             }
 
@@ -2293,7 +2337,7 @@ $screen-320: 320px;
                 font-size: 25px;
             }
 
-            a {
+            span {
                 font-size: 21px;
                 margin: 0 auto;
             }
@@ -2715,7 +2759,7 @@ $screen-320: 320px;
                 font-size: 25px;
             }
             margin: 0 auto;
-            a {
+            span {
                 font-size: 15px;
                 font-weight: 600;
                 margin: 0 auto;
@@ -3453,7 +3497,7 @@ $screen-320: 320px;
                 font-size: 25px;
             }
 
-            a {
+            span {
                 font-size: 15px;
                 margin-left: 15px;
                 margin-right: 15px;

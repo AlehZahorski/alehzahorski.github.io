@@ -562,7 +562,7 @@ template {
   margin-bottom: 50px; }
   .section-project__promo {
     text-align: center; }
-    .section-project__promo a {
+    .section-project__promo span {
       text-decoration: none;
       color: #707070;
       margin-left: 30px;
@@ -588,7 +588,8 @@ template {
     .section-project__allproject__choice {
       margin: 50px auto; }
       .section-project__allproject__choice img {
-        animation-duration: 1s; }
+        animation-duration: 1s;
+        cursor: pointer; }
       .section-project__allproject__choice img:hover {
         animation-name: section-project; }
   .section-project__textfirst p {
@@ -918,6 +919,61 @@ template {
     display: flex;
     justify-content: center; } }
 
+.showAllProjectsObjects {
+  display: block; }
+
+.displayNoneProject {
+  display: none; }
+
+.project-window {
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 876px;
+  height: 580px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #FFE746;
+  z-index: 1000; }
+  .project-window-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer; }
+  .project-window-close:hover {
+    width: 65px; }
+  .project-window-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px; }
+    .project-window-description-stack {
+      margin-left: 50px;
+      font-size: 20px; }
+      .project-window-description-stack p {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px; }
+    .project-window-description-desc {
+      margin-left: 20px;
+      margin-right: 10px;
+      margin-top: 10px; }
+      .project-window-description-desc-text {
+        font-size: 30px; }
+      .project-window-description-desc-buttons {
+        position: absolute;
+        right: 20px;
+        bottom: 90px; }
+        .project-window-description-desc-buttons-firstButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; }
+        .project-window-description-desc-buttons-secondButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; }
+
 @media (max-width: 970px) {
   .section-header-menu-list {
     font-size: 26px; }
@@ -943,7 +999,7 @@ template {
     height: 250px; }
   .section-project__promo h2 {
     font-size: 38px; }
-  .section-project__promo a {
+  .section-project__promo span {
     font-size: 30px; }
   .section-project__textfirst p {
     font-size: 32px; }
@@ -1060,7 +1116,7 @@ template {
     font-size: 27px; }
   .section-project__promo h2 {
     font-size: 35px; }
-  .section-project__promo a {
+  .section-project__promo span {
     font-size: 26px; }
   .section-project__promo hr {
     width: 30%; }
@@ -1196,7 +1252,7 @@ template {
     margin-top: -10px; }
   .section-project__promo h2 {
     font-size: 34px; }
-  .section-project__promo a {
+  .section-project__promo span {
     font-size: 25px; }
   .section-project__promo hr {
     width: 30%; }
@@ -1312,7 +1368,7 @@ template {
     margin-top: -10px; }
   .section-project__promo h2 {
     font-size: 32px; }
-  .section-project__promo a {
+  .section-project__promo span {
     font-size: 22px; }
   .section-project__promo hr {
     width: 30%; }
@@ -1434,7 +1490,7 @@ template {
         width: 100px; }
   .section-project__promo h2 {
     font-size: 25px; }
-  .section-project__promo a {
+  .section-project__promo span {
     font-size: 21px;
     margin: 0 auto; }
   .section-project__promo hr {
@@ -1651,7 +1707,7 @@ template {
     margin: 0 auto; }
     .section-project__promo h2 {
       font-size: 25px; }
-    .section-project__promo a {
+    .section-project__promo span {
       font-size: 15px;
       font-weight: 600;
       margin: 0 auto; }
@@ -2008,7 +2064,7 @@ template {
         width: 70px; }
   .section-project__promo h2 {
     font-size: 25px; }
-  .section-project__promo a {
+  .section-project__promo span {
     font-size: 15px;
     margin-left: 15px;
     margin-right: 15px; }
