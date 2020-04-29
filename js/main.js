@@ -77,6 +77,10 @@ const firstButton = document.getElementById('firstButton');
 const secondButton = document.getElementById('secondButton');
 const descriptionProject = document.getElementById('descriptionProject');
 const firstProjectImage = document.getElementById('firstProjectImage');
+const secondProjectImage = document.getElementById('secondProjectImage');
+const thirdProjectImage = document.getElementById('thirdProjectImage');
+const thirdLi = document.getElementById('thirdLi');
+const secondLi = document.getElementById('secondLi');
 
 
 const clickForOpenWindow1 = () =>{
@@ -85,16 +89,39 @@ const clickForOpenWindow1 = () =>{
     descriptionProject.textContent = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
     firstButton.href = "https://alehzahorski.github.io/your-weather/";
     secondButton.href = "https://github.com/AlehZahorski/your-weather";
+    secondLi.textContent = "CSS"
+    thirdLi.textContent = "Javascript: API,AJAX"
+}
 
+const clickForOpenWindow2 = () =>{
+    projectWindow.classList.remove('displayNoneProject');
+    secondProjectImage.classList.remove('displayNoneProject');
+    descriptionProject.textContent = 'Lasdad asda dasdasd asdasdadasng elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
+    firstButton.href = "https://alehzahorski.github.io/social_network/";
+    secondButton.href = "https://github.com/AlehZahorski/social_network";
+    secondLi.textContent = "CSS: module.css"
+    thirdLi.textContent = "Javascript: React(Redux)"
+}
 
+const clickForOpenWindow3 = () =>{
+    projectWindow.classList.remove('displayNoneProject');
+    thirdProjectImage.classList.remove('displayNoneProject');
+    descriptionProject.textContent = 'Lasdad asda dasdasd asdasdadasng elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
+    firstButton.href = "https://alehzahorski.github.io//new-providence-website/";
+    secondButton.href = "https://github.com/AlehZahorski//new-providence-website";
+    secondLi.textContent = "CSS: Bootstrap"
+    thirdLi.textContent = "Javascript: jQuery"
 }
 
 
 closeWindowProject.addEventListener('click', function(){
     projectWindow.classList.add('displayNoneProject');
+    firstProjectImage.classList.add('displayNoneProject');
+    secondProjectImage.classList.add('displayNoneProject');
+    thirdProjectImage.classList.add('displayNoneProject');
 })
 
 btnProject1.addEventListener('click', clickForOpenWindow1);
-// btnProject2.addEventListener('click', clickForOpenWindow);
-// btnProject3.addEventListener('click', clickForOpenWindow);
+btnProject2.addEventListener('click', clickForOpenWindow2);
+btnProject3.addEventListener('click', clickForOpenWindow3);
 
