@@ -96,7 +96,7 @@ const clickForOpenWindow1 = () =>{
 const clickForOpenWindow2 = () =>{
     projectWindow.classList.remove('displayNoneProject');
     secondProjectImage.classList.remove('displayNoneProject');
-    descriptionProject.textContent = 'Lasdad asda dasdasd asdasdadasng elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
+    descriptionProject.textContent = 'Ten project zaczelem robic jeszcze w 2019 roku'
     firstButton.href = "https://alehzahorski.github.io/social_network/";
     secondButton.href = "https://github.com/AlehZahorski/social_network";
     secondLi.textContent = "CSS: module.css"

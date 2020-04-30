@@ -878,10 +878,126 @@ $screen-320: 320px;
     justify-content: center;
 }
 
-
-@media (max-width: 780px){
+@media (max-width: 970px){
     .showWindowWithPass{
-        width: 300px;
+        width: 776px;
+        height: 580px;
+    }
+}
+@media (max-width: 870px){
+    .showWindowWithPass{
+        width: 720px;
+        img{
+            width: 55px;
+        }
+        img:hover{
+            width: 56px;
+        }
+     }
+     .fontText{
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: black;
+         font-size: 30px;
+     }
+     .form-class{
+         font-size: 30px;
+         input{
+             width: 300px;
+             font-size: 30px;
+             margin: 30px 20px 30px 10px;
+             height: 50px;
+         }
+         button{
+             font-size: 30px;
+             margin: 30px 20px 30px 10px;
+             height: 55px;
+             width: 160px;
+         }
+     }
+     .forMargin{
+         margin-top: 17%;
+     }
+     .form-class-row{
+         flex-direction: row;
+     }
+     .Form-button{
+         margin-top: 30px;
+         width: 382px;
+         height: 60px;
+         font-size: 32px;
+         cursor: pointer;
+         font-weight: 600;
+     }
+     .showButton{
+         display: block;
+     }
+     .button-cv{
+         display: flex;
+         justify-content: center;
+     }
+}
+@media (max-width: 770px){
+    .showWindowWithPass{
+        width: 620px;
+        height: 500px;
+     }
+}
+@media (max-width: 670px){
+    .showWindowWithPass{
+        width: 520px;
+        height: 440px;
+        img{
+            width: 50px;
+        }
+        img:hover{
+            width: 51px;
+        }
+     }
+     .fontText{
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: black;
+         font-size: 25px;
+     }
+     .form-class{
+         font-size: 25px;
+         input{
+             width: 200px;
+             font-size: 25px;
+             margin: 30px 20px 30px 10px;
+             height: 40px;
+         }
+         button{
+             font-size: 25px;
+             margin: 30px 20px 30px 10px;
+             height: 45px;
+             width: 130px;
+         }
+     }
+     .forMargin{
+         margin-top: 17%;
+     }
+     .form-class-row{
+         flex-direction: row;
+     }
+     .Form-button{
+         margin-top: 30px;
+         width: 282px;
+         height: 50px;
+         font-size: 25px;
+         cursor: pointer;
+         font-weight: 600;
+     }
+     .showButton{
+         display: block;
+     }
+     .button-cv{
+         display: flex;
+         justify-content: center;
+     }
+}
+@media (max-width: 570px){
+    .showWindowWithPass{
+        width: 400px;
         height: 450px;
         img{
             width: 40px;
@@ -940,6 +1056,68 @@ $screen-320: 320px;
          justify-content: center;
      }
 }
+@media (max-width: 470px){
+    .showWindowWithPass{
+        width: 300px;
+        height: 450px;
+        img{
+            width: 40px;
+        }
+        img:hover{
+            width: 41px;
+        }
+     }
+     .forMargin{
+        margin-top: 20%;
+    }
+     .fontText{
+         font-size: 22px;
+     }
+     .form-class{
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+         font-size: 22px;
+         color: #888888;
+         input{
+             width: 275px;
+             font-size: 22px;
+             margin: 30px 20px 30px 10px;
+             height: 40px;
+         }
+         button{
+             font-size: 22px;
+             height: 35px;
+             width: 225px;
+             cursor: pointer;
+             margin: 0 auto;
+             margin-bottom: 20px;
+         }
+     }
+     .form-class-row{
+         display: flex;
+         flex-direction: column;
+         margin: 0 auto;
+     }
+     .noneButton{
+         display: none;
+     }
+     .Form-button{
+         margin-top: 30px;
+         width: 275px;
+         height: 60px;
+         font-size: 27px;
+         font-weight: 900;
+     }
+     .showButton{
+         display: block;
+     }
+     .button-cv{
+         display: flex;
+         justify-content: center;
+     }
+}
+
 // == /password ==
 // == /password ==
 // == /password ==
@@ -1021,7 +1199,296 @@ $screen-320: 320px;
         }
     }
 }
-
+@media (max-width: 970px){
+    .project-window{
+        width: 776px;
+        height: 580px;
+        &-close{
+            width: 55px;
+        }
+        &-close:hover{
+            width: 56px;
+        }
+        &-description{
+            &-stack{
+                margin-left: 40px;
+                font-size: 20px;
+                p{
+                    font-size: 25px;
+                }
+            }
+            &-desc{
+                &-text{
+                    font-size: 26px;
+                }
+                &-buttons{
+                    position: absolute;
+                    right: 20px;
+                    bottom: 90px;
+                    &-firstButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                    &-secondButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 870px){
+    .project-window{
+        width: 676px;
+        height: 580px;
+        &-close{
+            width: 55px;
+        }
+        &-close:hover{
+            width: 56px;
+        }
+        &-description{
+            display: flex;
+            flex-direction: column;
+            &-stack{
+                display: flex;
+                flex-direction: row;
+                margin-left: 40px;
+                font-size: 27px;
+                img{
+                    width: 200px;
+                    margin-right: 70px;
+                }
+                p{
+                    font-size: 30px;
+                }
+            }
+            &-desc{
+                &-text{
+                    font-size: 26px;
+                }
+                &-buttons{
+                    position: absolute;
+                    left: 130px;
+                    bottom: 20px;
+                    &-firstButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                    &-secondButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 770px){
+    .project-window{
+        width: 576px;
+        height: 580px;
+        &-close{
+            width: 55px;
+        }
+        &-close:hover{
+            width: 56px;
+        }
+        &-description{
+            display: flex;
+            flex-direction: column;
+            &-stack{
+                display: flex;
+                flex-direction: row;
+                margin-left: 40px;
+                font-size: 22px;
+                img{
+                    width: 200px;
+                    margin-right: 20px;
+                }
+                p{
+                    font-size: 30px;
+                }
+            }
+            &-desc{
+                &-text{
+                    font-size: 22px;
+                }
+                &-buttons{
+                    position: absolute;
+                    left: 85px;
+                    bottom: 20px;
+                    &-firstButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                    &-secondButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 670px){
+    .project-window{
+        width: 476px;
+        height: 520px;
+        &-close{
+            width: 50px;
+        }
+        &-close:hover{
+            width: 51px;
+        }
+        &-description{
+            display: flex;
+            flex-direction: column;
+            margin-top: 80px;
+            &-stack{
+                display: flex;
+                flex-direction: row;
+                margin-left: 40px;
+                font-size: 20px;
+                img{
+                    width: 150px;
+                    margin-right: 10px;
+                }
+                p{
+                    font-size: 25px;
+                }
+            }
+            &-desc{
+                &-text{
+                    font-size: 22px;
+                }
+                &-buttons{
+                    position: absolute;
+                    left: 35px;
+                    bottom: 20px;
+                    &-firstButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                    &-secondButton{
+                        cursor: pointer;
+                        width: 200px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 570px){
+    .project-window{
+        width: 390px;
+        height: 520px;
+        &-close{
+            width: 50px;
+        }
+        &-close:hover{
+            width: 51px;
+        }
+        &-description{
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+            &-stack{
+                display: flex;
+                flex-direction: row;
+                margin-left: 40px;
+                font-size: 17px;
+                img{
+                    width: 150px;
+                    margin-right: 10px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+            &-desc{
+                &-text{
+                    font-size: 20px;
+                }
+                &-buttons{
+                    position: absolute;
+                    left: 45px;
+                    bottom: 20px;
+                    &-firstButton{
+                        cursor: pointer;
+                        width: 150px;
+                        height: 50px;
+                    }
+                    &-secondButton{
+                        cursor: pointer;
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 470px){
+    .project-window{
+        margin-top: 20px;
+        width: 310px;
+        height: 470px;
+        &-close{
+            width: 50px;
+        }
+        &-close:hover{
+            width: 51px;
+        }
+        &-description{
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+            &-stack{
+                display: flex;
+                flex-direction: row;
+                margin-left: 20px;
+                font-size: 16px;
+                img{
+                    width: 150px;
+                    margin-right: 10px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+            &-desc{
+                &-text{
+                    font-size: 17px;
+                }
+                &-buttons{
+                    position: absolute;
+                    left: 32.5px;
+                    bottom: 20px;
+                    &-firstButton{
+                        cursor: pointer;
+                        width: 120px;
+                        height: 50px;
+                    }
+                    &-secondButton{
+                        cursor: pointer;
+                        width: 120px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 // == /project-windiw ==
 // == /project-windiw ==

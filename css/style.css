@@ -871,14 +871,153 @@ template {
   display: flex;
   justify-content: center; }
 
-@media (max-width: 780px) {
+@media (max-width: 970px) {
+  .showWindowWithPass {
+    width: 776px;
+    height: 580px; } }
+
+@media (max-width: 870px) {
+  .showWindowWithPass {
+    width: 720px; }
+    .showWindowWithPass img {
+      width: 55px; }
+    .showWindowWithPass img:hover {
+      width: 56px; }
+  .fontText {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 30px; }
+  .form-class {
+    font-size: 30px; }
+    .form-class input {
+      width: 300px;
+      font-size: 30px;
+      margin: 30px 20px 30px 10px;
+      height: 50px; }
+    .form-class button {
+      font-size: 30px;
+      margin: 30px 20px 30px 10px;
+      height: 55px;
+      width: 160px; }
+  .forMargin {
+    margin-top: 17%; }
+  .form-class-row {
+    flex-direction: row; }
+  .Form-button {
+    margin-top: 30px;
+    width: 382px;
+    height: 60px;
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: 600; }
+  .showButton {
+    display: block; }
+  .button-cv {
+    display: flex;
+    justify-content: center; } }
+
+@media (max-width: 770px) {
+  .showWindowWithPass {
+    width: 620px;
+    height: 500px; } }
+
+@media (max-width: 670px) {
+  .showWindowWithPass {
+    width: 520px;
+    height: 440px; }
+    .showWindowWithPass img {
+      width: 50px; }
+    .showWindowWithPass img:hover {
+      width: 51px; }
+  .fontText {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 25px; }
+  .form-class {
+    font-size: 25px; }
+    .form-class input {
+      width: 200px;
+      font-size: 25px;
+      margin: 30px 20px 30px 10px;
+      height: 40px; }
+    .form-class button {
+      font-size: 25px;
+      margin: 30px 20px 30px 10px;
+      height: 45px;
+      width: 130px; }
+  .forMargin {
+    margin-top: 17%; }
+  .form-class-row {
+    flex-direction: row; }
+  .Form-button {
+    margin-top: 30px;
+    width: 282px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 600; }
+  .showButton {
+    display: block; }
+  .button-cv {
+    display: flex;
+    justify-content: center; } }
+
+@media (max-width: 570px) {
+  .showWindowWithPass {
+    width: 400px;
+    height: 450px; }
+    .showWindowWithPass img {
+      width: 40px; }
+    .showWindowWithPass img:hover {
+      width: 45px; }
+  .forMargin {
+    margin-top: 20%; }
+  .fontText {
+    font-size: 22px; }
+  .form-class {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+    color: #888888; }
+    .form-class input {
+      width: 275px;
+      font-size: 22px;
+      margin: 30px 20px 30px 10px;
+      height: 40px; }
+    .form-class button {
+      font-size: 22px;
+      height: 35px;
+      width: 225px;
+      cursor: pointer;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  .form-class-row {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+  .noneButton {
+    display: none; }
+  .Form-button {
+    margin-top: 30px;
+    width: 275px;
+    height: 60px;
+    font-size: 27px;
+    font-weight: 900; }
+  .showButton {
+    display: block; }
+  .button-cv {
+    display: flex;
+    justify-content: center; } }
+
+@media (max-width: 470px) {
   .showWindowWithPass {
     width: 300px;
     height: 450px; }
     .showWindowWithPass img {
       width: 40px; }
     .showWindowWithPass img:hover {
-      width: 45px; }
+      width: 41px; }
   .forMargin {
     margin-top: 20%; }
   .fontText {
@@ -973,6 +1112,218 @@ template {
           cursor: pointer;
           width: 200px;
           height: 50px; }
+
+@media (max-width: 970px) {
+  .project-window {
+    width: 776px;
+    height: 580px; }
+    .project-window-close {
+      width: 55px; }
+    .project-window-close:hover {
+      width: 56px; }
+    .project-window-description-stack {
+      margin-left: 40px;
+      font-size: 20px; }
+      .project-window-description-stack p {
+        font-size: 25px; }
+    .project-window-description-desc-text {
+      font-size: 26px; }
+    .project-window-description-desc-buttons {
+      position: absolute;
+      right: 20px;
+      bottom: 90px; }
+      .project-window-description-desc-buttons-firstButton {
+        cursor: pointer;
+        width: 200px;
+        height: 50px; }
+      .project-window-description-desc-buttons-secondButton {
+        cursor: pointer;
+        width: 200px;
+        height: 50px; } }
+
+@media (max-width: 870px) {
+  .project-window {
+    width: 676px;
+    height: 580px; }
+    .project-window-close {
+      width: 55px; }
+    .project-window-close:hover {
+      width: 56px; }
+    .project-window-description {
+      display: flex;
+      flex-direction: column; }
+      .project-window-description-stack {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        font-size: 27px; }
+        .project-window-description-stack img {
+          width: 200px;
+          margin-right: 70px; }
+        .project-window-description-stack p {
+          font-size: 30px; }
+      .project-window-description-desc-text {
+        font-size: 26px; }
+      .project-window-description-desc-buttons {
+        position: absolute;
+        left: 130px;
+        bottom: 20px; }
+        .project-window-description-desc-buttons-firstButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; }
+        .project-window-description-desc-buttons-secondButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; } }
+
+@media (max-width: 770px) {
+  .project-window {
+    width: 576px;
+    height: 580px; }
+    .project-window-close {
+      width: 55px; }
+    .project-window-close:hover {
+      width: 56px; }
+    .project-window-description {
+      display: flex;
+      flex-direction: column; }
+      .project-window-description-stack {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        font-size: 22px; }
+        .project-window-description-stack img {
+          width: 200px;
+          margin-right: 20px; }
+        .project-window-description-stack p {
+          font-size: 30px; }
+      .project-window-description-desc-text {
+        font-size: 22px; }
+      .project-window-description-desc-buttons {
+        position: absolute;
+        left: 85px;
+        bottom: 20px; }
+        .project-window-description-desc-buttons-firstButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; }
+        .project-window-description-desc-buttons-secondButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; } }
+
+@media (max-width: 670px) {
+  .project-window {
+    width: 476px;
+    height: 520px; }
+    .project-window-close {
+      width: 50px; }
+    .project-window-close:hover {
+      width: 51px; }
+    .project-window-description {
+      display: flex;
+      flex-direction: column;
+      margin-top: 80px; }
+      .project-window-description-stack {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        font-size: 20px; }
+        .project-window-description-stack img {
+          width: 150px;
+          margin-right: 10px; }
+        .project-window-description-stack p {
+          font-size: 25px; }
+      .project-window-description-desc-text {
+        font-size: 22px; }
+      .project-window-description-desc-buttons {
+        position: absolute;
+        left: 35px;
+        bottom: 20px; }
+        .project-window-description-desc-buttons-firstButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; }
+        .project-window-description-desc-buttons-secondButton {
+          cursor: pointer;
+          width: 200px;
+          height: 50px; } }
+
+@media (max-width: 570px) {
+  .project-window {
+    width: 390px;
+    height: 520px; }
+    .project-window-close {
+      width: 50px; }
+    .project-window-close:hover {
+      width: 51px; }
+    .project-window-description {
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px; }
+      .project-window-description-stack {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        font-size: 17px; }
+        .project-window-description-stack img {
+          width: 150px;
+          margin-right: 10px; }
+        .project-window-description-stack p {
+          font-size: 20px; }
+      .project-window-description-desc-text {
+        font-size: 20px; }
+      .project-window-description-desc-buttons {
+        position: absolute;
+        left: 45px;
+        bottom: 20px; }
+        .project-window-description-desc-buttons-firstButton {
+          cursor: pointer;
+          width: 150px;
+          height: 50px; }
+        .project-window-description-desc-buttons-secondButton {
+          cursor: pointer;
+          width: 150px;
+          height: 50px; } }
+
+@media (max-width: 470px) {
+  .project-window {
+    margin-top: 20px;
+    width: 310px;
+    height: 470px; }
+    .project-window-close {
+      width: 50px; }
+    .project-window-close:hover {
+      width: 51px; }
+    .project-window-description {
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px; }
+      .project-window-description-stack {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        font-size: 16px; }
+        .project-window-description-stack img {
+          width: 150px;
+          margin-right: 10px; }
+        .project-window-description-stack p {
+          font-size: 18px; }
+      .project-window-description-desc-text {
+        font-size: 17px; }
+      .project-window-description-desc-buttons {
+        position: absolute;
+        left: 32.5px;
+        bottom: 20px; }
+        .project-window-description-desc-buttons-firstButton {
+          cursor: pointer;
+          width: 120px;
+          height: 50px; }
+        .project-window-description-desc-buttons-secondButton {
+          cursor: pointer;
+          width: 120px;
+          height: 50px; } }
 
 @media (max-width: 970px) {
   .section-header-menu-list {
