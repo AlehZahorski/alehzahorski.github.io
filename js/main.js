@@ -86,7 +86,9 @@ const secondLi = document.getElementById('secondLi');
 const clickForOpenWindow1 = () =>{
     projectWindow.classList.remove('displayNoneProject');
     firstProjectImage.classList.remove('displayNoneProject');
-    descriptionProject.textContent = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
+    thirdProjectImage.classList.add('displayNoneProject');
+    secondProjectImage.classList.add('displayNoneProject');
+    descriptionProject.textContent = 'W tym projekcie głównym celem dla mnie było nauczyć się posługiwać API, czyli wprost mówiąc w jaki sposób dane się pobierają i w jaki sposób się wyświetlają. Myślę że dało się ogarnąć ten temat w miarę dobrze.'
     firstButton.href = "https://alehzahorski.github.io/your-weather/";
     secondButton.href = "https://github.com/AlehZahorski/your-weather";
     secondLi.textContent = "CSS"
@@ -95,8 +97,10 @@ const clickForOpenWindow1 = () =>{
 
 const clickForOpenWindow2 = () =>{
     projectWindow.classList.remove('displayNoneProject');
+    firstProjectImage.classList.add('displayNoneProject');
     secondProjectImage.classList.remove('displayNoneProject');
-    descriptionProject.textContent = 'Ten project zaczelem robic jeszcze w 2019 roku'
+    thirdProjectImage.classList.add('displayNoneProject');
+    descriptionProject.textContent = 'Ten project zacząłem robić jeszcze w środku 2019 roku i będę go rozwiał dalej, ponieważ jest to dobry teram żeby sobie przećwiczyć Javascript(czym teraz głównie się zajmuje). W planach uzupełnić sekcje "message" i później próbować dodawać użytkowników.'
     firstButton.href = "https://alehzahorski.github.io/social_network/";
     secondButton.href = "https://github.com/AlehZahorski/social_network";
     secondLi.textContent = "CSS: module.css"
@@ -105,8 +109,10 @@ const clickForOpenWindow2 = () =>{
 
 const clickForOpenWindow3 = () =>{
     projectWindow.classList.remove('displayNoneProject');
+    firstProjectImage.classList.add('displayNoneProject');
+    secondProjectImage.classList.add('displayNoneProject');
     thirdProjectImage.classList.remove('displayNoneProject');
-    descriptionProject.textContent = 'Lasdad asda dasdasd asdasdadasng elit. Provident explicabo atque nam magni quos, consequatur voluptatum reiciendis adipisci, excepturi officia error soluta obcaecati rem? Vitae similique velit suscipit numquam consequatur?'
+    descriptionProject.textContent = 'To jest dość prosty layout pobrany z internetu(to nie jest moj designe) na którym sobie przećwiczyłem bootstrapa, nie chciałem rozbudowywać ten project ponieważ teraz bardziej się skupilem na logice js. '
     firstButton.href = "https://alehzahorski.github.io//new-providence-website/";
     secondButton.href = "https://github.com/AlehZahorski//new-providence-website";
     secondLi.textContent = "CSS: Bootstrap"
