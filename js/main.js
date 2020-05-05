@@ -112,7 +112,7 @@ const clickForOpenWindow3 = () =>{
     firstProjectImage.classList.add('displayNoneProject');
     secondProjectImage.classList.add('displayNoneProject');
     thirdProjectImage.classList.remove('displayNoneProject');
-    descriptionProject.textContent = 'To jest dość prosty layout pobrany z internetu(to nie jest moj designe) na którym sobie przećwiczyłem bootstrapa, nie chciałem rozbudowywać ten project ponieważ teraz bardziej się skupilem na logice js. '
+    descriptionProject.textContent = 'To jest dość prosty layout designe ktorego pobralem z internetu, na tym sobie przećwiczyłem bootstrapa, nie chciałem rozbudowywać ten project ponieważ teraz bardziej się skupilem na logice js. '
     firstButton.href = "https://alehzahorski.github.io//new-providence-website/";
     secondButton.href = "https://github.com/AlehZahorski//new-providence-website";
     secondLi.textContent = "CSS: Bootstrap"
