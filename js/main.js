@@ -32,7 +32,7 @@ pushPassword.addEventListener('click', function(e){
     if(input.value == passwordTrue){
         div.textContent = 'Haslo jest okej, mozesz pobrac CV';   
         idCV.classList.add('showButton');
-        idCV.href = "aleh_zahorskiCV.pdf";
+        idCV.href = "img/cv/aleh_zahorskiCV.pdf";
     } else{
         div.textContent = `haslo "${input.value}" nie jest prawidlowe`;
         idCV.classList.remove('showButton');

@@ -146,10 +146,10 @@ $screen-320: 320px;
     position: relative;
     margin-top: 72px;
     &_change-language{
-        position: fixed;
+        position: relative;
         border-bottom: 1px solid black;
-        margin-left: 80px;
         margin-top: -5px;
+        margin-left: 10px;
         img{
             width: 20px;
             opacity: .9;
@@ -211,16 +211,6 @@ $screen-320: 320px;
                 margin-left: 20px;
             }
         }
-
-        &__change-language {
-            margin: 15px 60px auto 0;
-            display: none;
-
-            img {
-                width: 30px;
-            }
-        }
-
         &__burger-menu {
             margin: 15px 10px auto 5px;
 

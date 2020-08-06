@@ -410,10 +410,10 @@ template {
   position: relative;
   margin-top: 72px; }
   .section-header_change-language {
-    position: fixed;
+    position: relative;
     border-bottom: 1px solid black;
-    margin-left: 80px;
-    margin-top: -5px; }
+    margin-top: -5px;
+    margin-left: 10px; }
     .section-header_change-language img {
       width: 20px;
       opacity: .9; }
@@ -456,11 +456,6 @@ template {
       margin: auto 10px auto auto; }
       .section-header-menu-list span {
         margin-left: 20px; }
-    .section-header-menu__change-language {
-      margin: 15px 60px auto 0;
-      display: none; }
-      .section-header-menu__change-language img {
-        width: 30px; }
     .section-header-menu__burger-menu {
       margin: 15px 10px auto 5px; }
       .section-header-menu__burger-menu img {
