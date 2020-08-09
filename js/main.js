@@ -70,6 +70,8 @@ const btnProject1 = document.getElementById('btn-project1');
 const btnProject2 = document.getElementById('btn-project2');
 const btnProject3 = document.getElementById('btn-project3');
 const btnProject4 = document.getElementById('btn-project4');
+const btnProject5 = document.getElementById('btn-project5');
+const btnProject6 = document.getElementById('btn-project6');
 const projectDisplayImage = document.getElementById('projectDisplayImage');
 const closeWindowProject = document.getElementById('closeWindowProject');
 
@@ -82,6 +84,8 @@ const firstProjectImage = document.getElementById('firstProjectImage');
 const secondProjectImage = document.getElementById('secondProjectImage');
 const thirdProjectImage = document.getElementById('thirdProjectImage');
 const fourProjectImage = document.getElementById('fourProjectImage');
+const fiveProjectImage = document.getElementById('fiveProjectImage');
+const sixProjectImage = document.getElementById('sixProjectImage');
 const thirdLi = document.getElementById('thirdLi');
 const secondLi = document.getElementById('secondLi');
 
@@ -92,6 +96,8 @@ const clickForOpenWindow1 = () =>{
     thirdProjectImage.classList.add('displayNoneProject');
     fourProjectImage.classList.add('displayNoneProject');
     secondProjectImage.classList.add('displayNoneProject');
+    fiveProjectImage.classList.add('displayNoneProject');
+    sixProjectImage.classList.add('displayNoneProject');
     descriptionProject.textContent = 'W tym projekcie głównym celem dla mnie było nauczyć się posługiwać API, czyli wprost mówiąc w jaki sposób dane się pobierają i w jaki sposób się wyświetlają. Myślę że dało się ogarnąć ten temat w miarę dobrze.'
     firstButton.href = "https://alehzahorski.github.io/your-weather/";
     secondButton.href = "https://github.com/AlehZahorski/your-weather";
@@ -105,6 +111,8 @@ const clickForOpenWindow2 = () =>{
     secondProjectImage.classList.remove('displayNoneProject');
     thirdProjectImage.classList.add('displayNoneProject');
     fourProjectImage.classList.add('displayNoneProject');
+    fiveProjectImage.classList.add('displayNoneProject');
+    sixProjectImage.classList.add('displayNoneProject');
     descriptionProject.textContent = 'Ten project zacząłem robić jeszcze w środku 2019 roku i będę go rozwiał dalej, ponieważ jest to dobry teram żeby sobie przećwiczyć Javascript(czym teraz głównie się zajmuje). W planach uzupełnić sekcje "message" i później próbować dodawać użytkowników.'
     firstButton.href = "https://alehzahorski.github.io/social_network/";
     secondButton.href = "https://github.com/AlehZahorski/social_network";
@@ -118,6 +126,8 @@ const clickForOpenWindow3 = () =>{
     secondProjectImage.classList.add('displayNoneProject');
     thirdProjectImage.classList.remove('displayNoneProject');
     fourProjectImage.classList.add('displayNoneProject');
+    fiveProjectImage.classList.add('displayNoneProject');
+    sixProjectImage.classList.add('displayNoneProject');
     descriptionProject.textContent = 'To jest dość prosty layout designe ktorego pobralem z internetu, na tym sobie przećwiczyłem bootstrapa. '
     firstButton.href = "https://alehzahorski.github.io//new-providence-website/";
     secondButton.href = "https://github.com/AlehZahorski//new-providence-website";
@@ -131,11 +141,43 @@ const clickForOpenWindow4 = () =>{
     secondProjectImage.classList.add('displayNoneProject');
     thirdProjectImage.classList.add('displayNoneProject');
     fourProjectImage.classList.remove('displayNoneProject');
+    fiveProjectImage.classList.add('displayNoneProject');
+    sixProjectImage.classList.add('displayNoneProject');
     descriptionProject.textContent = 'Zwykly layout pobrany z internetu. Stylowany za pomoca sass zebrany za pomoca gulp.'
     firstButton.href = "https://alehzahorski.github.io/gangland/";
     secondButton.href = "https://github.com/AlehZahorski//gangland";
     secondLi.textContent = "CSS: Sass"
     thirdLi.textContent = "Javascript: Gulp"
+}
+
+const clickForOpenWindow5 = () =>{
+    projectWindow.classList.remove('displayNoneProject');
+    firstProjectImage.classList.add('displayNoneProject');
+    secondProjectImage.classList.add('displayNoneProject');
+    thirdProjectImage.classList.add('displayNoneProject');
+    fourProjectImage.classList.add('displayNoneProject');
+    fiveProjectImage.classList.remove('displayNoneProject');
+    sixProjectImage.classList.add('displayNoneProject');
+    descriptionProject.textContent = 'Pomysl na te apke powstal po tym jak przerobilem kurs samurajJs, lecz chcialem to zrobic z zapisywaniem do localstorage, wiec postanowilem sie nauczyc poslugiwac localstorage.'
+    firstButton.href = "https://alehzahorski.github.io/todo/";
+    secondButton.href = "https://github.com/AlehZahorski/todo";
+    secondLi.textContent = "CSS"
+    thirdLi.textContent = "Javascript: just js"
+}
+
+const clickForOpenWindow6 = () =>{
+    projectWindow.classList.remove('displayNoneProject');
+    firstProjectImage.classList.add('displayNoneProject');
+    secondProjectImage.classList.add('displayNoneProject');
+    thirdProjectImage.classList.add('displayNoneProject');
+    fourProjectImage.classList.add('displayNoneProject');
+    fiveProjectImage.classList.add('displayNoneProject');
+    sixProjectImage.classList.remove('displayNoneProject');
+    descriptionProject.textContent = 'Nadal sie bawie z localstorage lecz do tego dodalem jeszcze paradygmaty OOP, chce w przyszlosci stworzyc swoj wlasny sklep internetowy(na react) wiec wiedza odnosnie tego bardzo przydatna :)'
+    firstButton.href = "https://alehzahorski.github.io/cart/";
+    secondButton.href = "https://github.com/AlehZahorski/cart";
+    secondLi.textContent = "CSS"
+    thirdLi.textContent = "Javascript: just js"
 }
 
 
@@ -145,10 +187,14 @@ closeWindowProject.addEventListener('click', function(){
     secondProjectImage.classList.add('displayNoneProject');
     thirdProjectImage.classList.add('displayNoneProject');
     fourProjectImage.classList.add('displayNoneProject');
+    fiveProjectImage.classList.add('displayNoneProject');
+    sixProjectImage.classList.add('displayNoneProject');
 })
 
 btnProject1.addEventListener('click', clickForOpenWindow1);
 btnProject2.addEventListener('click', clickForOpenWindow2);
 btnProject3.addEventListener('click', clickForOpenWindow3);
 btnProject4.addEventListener('click', clickForOpenWindow4);
+btnProject5.addEventListener('click', clickForOpenWindow5);
+btnProject6.addEventListener('click', clickForOpenWindow6);
 
