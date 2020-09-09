@@ -1,2 +1,2 @@
 # Portfolio
-live - alehzahorski.github.io
+live - https://alehzahorski.github.io/
