@@ -113,7 +113,7 @@ const clickForOpenWindow2 = () =>{
     fourProjectImage.classList.add('displayNoneProject');
     fiveProjectImage.classList.add('displayNoneProject');
     sixProjectImage.classList.add('displayNoneProject');
-    descriptionProject.textContent = 'Ten project zacząłem robić jeszcze w środku 2019 roku i będę go rozwiał dalej, ponieważ jest to dobry teram żeby sobie przećwiczyć Javascript(czym teraz głównie się zajmuje). W planach uzupełnić sekcje "message" i później próbować dodawać użytkowników.'
+    descriptionProject.textContent = 'Ten project zacząłem robić jeszcze w środku 2019 roku i będę go rozwiał dalej. W planach uzupełnić sekcje "message" i później próbować dodawać użytkowników.'
     firstButton.href = "https://alehzahorski.github.io/social_network/";
     secondButton.href = "https://github.com/AlehZahorski/social_network";
     secondLi.textContent = "CSS: module.css"
@@ -128,7 +128,7 @@ const clickForOpenWindow3 = () =>{
     fourProjectImage.classList.add('displayNoneProject');
     fiveProjectImage.classList.add('displayNoneProject');
     sixProjectImage.classList.add('displayNoneProject');
-    descriptionProject.textContent = 'To jest dość prosty layout designe ktorego pobralem z internetu, na tym sobie przećwiczyłem bootstrapa. '
+    descriptionProject.textContent = 'To jest dość prosty layout, PSD ktorego pobralem z internetu, na tym sobie przećwiczyłem bootstrapa.'
     firstButton.href = "https://alehzahorski.github.io//newProvidence/";
     secondButton.href = "https://github.com/AlehZahorski//newProvidence";
     secondLi.textContent = "CSS: Bootstrap"
@@ -143,7 +143,7 @@ const clickForOpenWindow4 = () =>{
     fourProjectImage.classList.remove('displayNoneProject');
     fiveProjectImage.classList.add('displayNoneProject');
     sixProjectImage.classList.add('displayNoneProject');
-    descriptionProject.textContent = 'Zwykly layout pobrany z internetu. Stylowany za pomoca sass zebrany za pomoca gulp.'
+    descriptionProject.textContent = 'Zwykla stronka, PSD ktorej pobrany z internetu. Stylowany za pomoca sass zebrany za pomoca gulp.'
     firstButton.href = "https://alehzahorski.github.io/gangland/";
     secondButton.href = "https://github.com/AlehZahorski//gangland";
     secondLi.textContent = "CSS: Sass"
