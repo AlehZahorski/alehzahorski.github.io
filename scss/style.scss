@@ -27,7 +27,6 @@ $screen-320: 320px;
 
 
 
-
 // == menu ==
 // == menu ==
 // == menu ==
@@ -81,13 +80,13 @@ $screen-320: 320px;
     text-transform: uppercase;
     text-decoration: none;
 
-    a {
+    span {
         @include NewsCycle;
         text-decoration: none;
         color: #707070;
     }
 
-    a:hover {
+    span:hover {
         text-decoration: none;
         color: black;
     }

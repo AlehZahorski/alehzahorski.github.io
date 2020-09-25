@@ -14,10 +14,11 @@
     <script type="text/javascript" src="./js/wow.min.js"></script>
     <script type="text/javascript" src="./js/config_language.js" defer></script>
     <script type="text/javascript" src="./js/main.js" defer></script>
+    <script type="text/javascript" src="./js/script.js" defer></script>
     <script>
           new WOW().init();
     </script>
-    <meta name="description" content="Czesc. Z tej strony Aleh, jestem ux/ui architektorem oraz ucze sie frontendu. Wpadnij na ta stone jezeli chcesz poznac mnie albo wspolpracowac ze mna.">
+    <meta name="description" content="Czesc. Z tej strony Aleh, zajmuje sie frontendem i architektura UX/UI. Wpadnij na ta stone jezeli chcesz poznac mnie albo wspolpracowac ze mna.">
     <meta name="keywords" content="Frontend-developer.">
 
 </head>
@@ -302,10 +303,18 @@
 
 
             <form class="section-contact__inputs">
-                <input required name="user_name" class="wow rubberBand" aria-label="Wpisz swoje imie" placeholder="Wpisz swoje imie" type="text" >
-                <input required name="user_mail" class="wow rubberBand" aria-label="Wpisz swoj mail" placeholder="examle@gmail.com" type="email" >
-                <textarea name="user_message" class="wow rubberBand" aria-label="tu trzeba umiescic text z ktorym chcesz zwrocic sie do mnie" placeholder="Wpisz tresc wiadomości.." type="text"></textarea>
-                <button id="btnMail" type="submit" class="wow zoomIn"> <span class="lang" key="section_4_1"> Wyślij </span></button>
+            
+                    <input required name="user_name" class="wow rubberBand" aria-label="Wpisz swoje imie" placeholder="Wpisz swoje imie" type="text" >
+                    <input required name="user_mail" class="wow rubberBand" aria-label="Wpisz swoj mail" placeholder="examle@gmail.com" type="email" >
+                    <textarea name="user_message" class="wow rubberBand" aria-label="tu trzeba umiescic text z ktorym chcesz zwrocic sie do mnie" placeholder="Wpisz tresc wiadomości.." type="text"></textarea>
+                    <button id="btnMail" type="submit" class="wow zoomIn"> <span class="lang" key="section_4_1"> Wyślij </span></button>
+
+                        
+                   <!-- Hidden Required Fields -->
+                   <input type="hidden" name="project_name" value="serwis komouterowy ozarow mazowiecki">
+                   <input type="hidden" name="admin_email" value="jeangreenbass@gmail.com">
+                   <input type="hidden" name="form_subject" value="kontakt z klientem">
+                   <!-- END Hidden Required Fields -->
             </form>
 
 
